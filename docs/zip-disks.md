@@ -1,11 +1,10 @@
 # Zip Disks
 
-- [Zip Disks](#zip-disks)
-  - [Hardware](#hardware)
-    - [Zip drive](#zip-drive)
-    - [Write blocker](#write-blocker)
-  - [Software](#software)
-  - [Workflow](#workflow)
+- [Hardware](#hardware)
+  - [Zip drive](#zip-drive)
+  - [Write blocker](#write-blocker)
+- [Software](#software)
+- [Workflow](#workflow)
 
 ## Hardware
 
