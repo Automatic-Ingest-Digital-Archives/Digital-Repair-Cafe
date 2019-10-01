@@ -1,11 +1,10 @@
 # Magneto-Optical Disks
 
-- [Magneto-Optical Disks](#magneto-optical-disks)
-  - [Hardware](#hardware)
-    - [M.O. drive](#mo-drive)
-    - [Write blocker](#write-blocker)
-  - [Software](#software)
-  - [Workflow](#workflow)
+- [Hardware](#hardware)
+  - [M.O. drive](#mo-drive)
+  - [Write blocker](#write-blocker)
+- [Software](#software)
+- [Workflow](#workflow)
 
 ## Hardware
 
