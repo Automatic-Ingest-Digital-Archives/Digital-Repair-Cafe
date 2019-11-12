@@ -61,11 +61,11 @@ A computer running the [Bitcurator Environment](https://bitcurator.net/) (We use
 2. Navigate to Imaging folder on the Desktop and start Guymager
 3. Right click on the entry for the Zip Drive and select _Acquire image_
 4. Add following settings in the dialog:
-  * __Linux dd raw image__ as file format
-  * __uncheck__ the __Split image files__
-  * under _Destination_ create a destination directory for the disk image by clicking on the button with __...__
-  * enter a file name for the disk image file in the __Image filename (without extension__ field
-  * under _Hash calculation/verification_ check __Calculate MD5__ and __Verify image after acquisition__
+    - __Linux dd raw image__ as file format
+    - __uncheck__ the __Split image files__
+    - under _Destination_ create a destination directory for the disk image by clicking on the button with __...__
+    - enter a file name for the disk image file in the __Image filename (without extension__ field
+    - under _Hash calculation/verification_ check __Calculate MD5__ and __Verify image after acquisition__
 5. Press the start button
 6. When Guymager is finished, you'll see a green bullet and the text _Finished - Verified & ok_
 7. Navigate to the chosen destination directory in step 4. You will see two files: a disk image with the _.dd_ extension and an information file with the _.info_ extension
