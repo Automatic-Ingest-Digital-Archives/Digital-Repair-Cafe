@@ -44,7 +44,7 @@ mt -f /dev/nst0 asf ${n}; #position the tape to record number ${n}.
 tar xvf /dev/nst0; #extract all files to the current folder.
 ```
 
-#### To generate a list of all the files within a single record
+#### Generate a list of all the files within a single record
 
 ```bash
 mt -f /dev/nst0 asf ${n}; #positon the tape to record number ${n}.
@@ -60,7 +60,7 @@ mt -f /dev/nst0 eod; #move tape past end of last record
 tar -cvf /dev/nst0 /etc; #back up the '/etc' folder. change what folder you want as necessary.
 ```
 
-### To overwrite an existing record
+#### Overwrite an existing record
 
 ```bash
 mt -f /dev/nst0 asf ${n}; #positon the tape to record number ${n}.
@@ -69,7 +69,7 @@ tar -cvf /dev/nst0 /etc; #backup the '/etc' folder.
 
 ### Delete
 
-####  Erasing the tape
+#### Erase the tape
 
 ```bash
 mt -f /dev/nst0 asf 0; #positon the tape to record number 0.
