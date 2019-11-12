@@ -86,10 +86,10 @@ A Linux computer, preferably running the [Bitcurator Environment](https://bitcur
     - under _Hash calculation/verification_ check __Calculate MD5__ and __Verify image after acquisition__
 5. Press the start button
 6. When Guymager is finished, you'll see a green bullet and the text _Finished - Verified & ok_
-7. Navigate to the chosen destination directory in step 4. You will see two files: a disk image with the _.dd_ extension and an information file with the _.info_ extension
+7. Navigate to the chosen destination directory in nr. 4 of this step. You will see two files: a disk image with the _.dd_ extension and an information file with the _.info_ extension
 
 ### Step 5: Eject the disk
 1. Open a file explorer window
 2. Right click on the device in the left navigation sidebar
 3. Select eject
-4. Go back to step 3 with a new disk
+4. Go back to step 3 using a new disk
