@@ -78,6 +78,7 @@ A Linux computer, preferably running the [Bitcurator Environment](https://bitcur
 7. Navigate to the chosen destination directory in nr. 4 of this step. You will see two files: a disk image with the _.dd_ extension and an information file with the _.info_ extension
 
 ### Step 5: Eject the disk
+
 1. Open a file explorer window
 2. Right click on the device in the left navigation sidebar
 3. Select eject

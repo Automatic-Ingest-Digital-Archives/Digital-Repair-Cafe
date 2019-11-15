@@ -10,37 +10,36 @@
 
 ### M.O. drive
 
-|**Model**|[Fujitsu DynaMO 1300U2 Pocket MDK3130UB](https://web.archive.org/web/20060321071446/http://www.fujitsu.com/global/services/computing/storage/mo/dynamo1300u2pocket/)|
+|**Model**|[Fujitsu DynaMO 1300U2 Pocket MDK3130UB](https://web.archive.org/web/20060321071446/http://www.fujitsu.com/global/services/computing/storage/mo/dynamo1300u2pocket/) ![DynaMO 1300U2](images/MO-13000.jpg)|
 |:--|:--|
 |**Media**|M.O. disks 128 MB, 230 MB, 540 MB, 640 MB and 1.3 GB|
 |**Interface**|[USB](https://www.wikidata.org/wiki/Q42378)|
 |**Connector**|USB 1.1 or 2.0|
-|**Cable**|[USB mini B to USB type A](https://commons.wikimedia.org/wiki/File:USB_Mini-B_and_Standard-A_plugs.jpg)|
-|**Workstation connection**|Can be connected directly with write blocker (which has a USB type A female connection|
+|**Cable**|[USB mini B to USB type A](https://commons.wikimedia.org/wiki/File:USB_Mini-B_and_Standard-A_plugs.jpg) ![USB](images/USB-B.jpg)|
+|**Workstation connection**|Can be connected directly with write blocker (which has a USB type A female connection)|
 |**Power**| n/a |
 |**Documentation**| |
 
-|**Model**|[Fujitsu DynaMO 2300U2 MDP3230UB](https://web.archive.org/web/20060321071424/http://www.fujitsu.com/global/services/computing/storage/mo/dynamo2300u2al/)|
+|**Model**|[Fujitsu DynaMO 2300U2 MDP3230UB](https://web.archive.org/web/20060321071424/http://www.fujitsu.com/global/services/computing/storage/mo/dynamo2300u2al/) ![DynaMO2300U2](images/MO-23000.jpg)|
 |:--|:--|
 |**Media**|M.O. disks 128 MB, 230 MB, 540 MB, 640 MB, 1.3 GB and 2.3 GB|
 |**Interface**|[USB](https://www.wikidata.org/wiki/Q42378)|
 |**Connector**|USB 1.1 or 2.0|
-|**Cable**|[USB mini B to USB type A](https://commons.wikimedia.org/wiki/File:USB_Mini-B_and_Standard-A_plugs.jpg)|
+|**Cable**|[USB mini B to USB type A](https://commons.wikimedia.org/wiki/File:USB_Mini-B_and_Standard-A_plugs.jpg) ![USB](images/USB-B.jpg)|
 |**Workstation connection**|Can be connected directly with write blocker (which has a USB type A female connection|
 |**Power**| DC input (to check!) |
 |**Documentation**| |
 
-
 ### Write blocker
 
-|**Model**|[Tableau Forensic USB 3.0 Bridge T8U](https://web.archive.org/web/20180409191526/https://www.guidancesoftware.com/tableau/hardware//t8u)|
+|**Model**|[Tableau Forensic USB 3.0 Bridge T8U](https://web.archive.org/web/20180409191526/https://www.guidancesoftware.com/tableau/hardware//t8u) ![blocker](images/blocker.jpg)|
 |:--|:--|
 |**Media**|Drives with USB 3.0 and older connectors|
 |**Interface**|[USB](https://www.wikidata.org/wiki/Q42378)|
 |**Connector**|USB 3.0|
-|**Cable**|[USB type B to USB type A](https://commons.wikimedia.org/wiki/Category:USB_cables?uselang=nl#/media/File:A-B_Usb_Cable.jpg)|
+|**Cable**|[USB type B to USB type A](https://commons.wikimedia.org/wiki/Category:USB_cables?uselang=nl#/media/File:A-B_Usb_Cable.jpg) ![USB](images/USB-3.jpg)|
 |**Workstation connection**|Can be connected directly with workstation (which has a USB type A female connection|
-|**Power**| DC input: 5-pin Mini-DIN connector|
+|**Power**| DC input: 5-pin Mini-DIN connector ![connector](images/power-5-pin.jpg)|
 |**Documentation**| |
 
 ### Workstation
