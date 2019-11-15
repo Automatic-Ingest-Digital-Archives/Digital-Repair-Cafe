@@ -1,11 +1,5 @@
 # Magneto-Optical Disks
 
-- [Hardware](#hardware)
-  - [M.O. drive](#mo-drive)
-  - [Write blocker](#write-blocker)
-- [Software](#software)
-- [Workflow](#workflow)
-
 ## Hardware
 
 ### M.O. drive
@@ -61,7 +55,7 @@ A Linux computer, preferably running the [Bitcurator Environment](https://bitcur
 
 ### Step 2: Connect the M.O. Drive to the write blocker
 
-1. Choose the appropriate M.O. Drive. 
+1. Choose the appropriate M.O. Drive.
     - use the Fujitsu DynaMO 1300U2 Pocket for disks with a capacity of 1.3 GB or less
     - Use the Fujitsu DynaMO 2300U2 for disks with a capacity over 1.3 GB
 2. Connect the M.O Drive to the write blocker using the USB cable
@@ -88,6 +82,7 @@ A Linux computer, preferably running the [Bitcurator Environment](https://bitcur
 7. Navigate to the chosen destination directory in nr. 4 of this step. You will see two files: a disk image with the _.dd_ extension and an information file with the _.info_ extension
 
 ### Step 5: Eject the disk
+
 1. Open a file explorer window
 2. Right click on the device in the left navigation sidebar
 3. Select eject
