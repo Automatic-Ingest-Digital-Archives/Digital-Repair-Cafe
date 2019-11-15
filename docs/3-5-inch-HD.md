@@ -8,8 +8,8 @@
 |:--|:--|
 |**Media**|3,5 inch HD floppies (maybe also double density ones used on Windows computers)|
 |**Interface**|[USB](https://www.wikidata.org/wiki/Q42378)|
-|**Connector**|USB 1.1 or 2.0|
-|**Cable**|n/a - built in cable|
+|**Connector**|USB 1.1|
+|**Cable**|n/a - built in|
 |**Workstation connection**|Can be connected directly with write blocker (which has a USB type A female connection|
 |**Power**| n/a |
 |**Documentation**| |
