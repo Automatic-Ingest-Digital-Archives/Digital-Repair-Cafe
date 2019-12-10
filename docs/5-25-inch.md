@@ -92,12 +92,15 @@ You can skip this step if you know the [logical format](https://github.com/archi
    * Grey: the KryoFlux software could not determine the status of this track. This may or may not mean a successful read. It could indicate that this track was unformatted or that the wrong format was selected in step 3.
 5. If the imaging is finished, eject the floppy disk from the drive.
 
+## Guidelines
+
+__Table 1:__ KryoFlux image formats of the most common floppy disk formatting.
+
 Physical Media|Computer Family|Kryoflux Image Format|
 |:--|:--|:--|
-5.25 inch DD|PC| MFM Sector Image (40 track)|
-5.25 inch HD|PC| MFM Sector Image|
+5.25 inch DD|DOS/PC| MFM Sector Image (40 track)|
+5.25 inch HD|DOS/PC| MFM Sector Image|
 5.25 inch SD/DD|Amiga| AmigaDOS sector image (40 track) |
 5.25 inch SD/DD|Commodore Business Machine|CBM sector image (35 track)|
 5.25 inch SD/DD|Apple II computers|Apple DOS 3.x sector image (35 track)|
 5.25 inch SD/DD|Macintosh| Apple DOS 400K/800K (40 track)|
-Table: Image formats of the most common floppy disk types.
