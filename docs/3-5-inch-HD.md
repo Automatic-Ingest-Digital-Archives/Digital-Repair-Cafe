@@ -4,7 +4,7 @@
 
 ### Floppy drive
 
-|**Model**|[Freecom USB Floppy Disk Drive](https://web.archive.org/web/20040803215730fw_/http://www.freecom.com/ecProduct_detail.asp?ID=1203&nr=22767&prodn=USB+Floppy+Disk+Drive) ![floppy freecom](images/floppy-freecom.jpg)|
+|**Model**|[Freecom USB Floppy Disk Drive](https://web.archive.org/web/20040803215730fw_/http://www.freecom.com/ecProduct_detail.asp?ID=1203&nr=22767&prodn=USB+Floppy+Disk+Drive) ![floppy freecom](images/floppy/floppy-freecom.jpg)|
 |:--|:--|
 |**Media**|3,5 inch HD floppies (maybe also be double density ones used on Windows computers)|
 |**Interface**|[USB](https://www.wikidata.org/wiki/Q42378)|
@@ -14,7 +14,7 @@
 |**Power**| n/a |
 |**Documentation**| |
 
-|**Model**|IBM Diskette Drive Portable 13N6752 ![floppy freecom](images/floppy-USB.jpg)|
+|**Model**|IBM Diskette Drive Portable 13N6752 ![floppy freecom](images/floppy/floppy-USB.jpg)|
 |:--|:--|
 |**Media**|3,5 inch HD floppies (maybe also be double density ones used on Windows computers)|
 |**Interface**|[USB](https://www.wikidata.org/wiki/Q42378)|
