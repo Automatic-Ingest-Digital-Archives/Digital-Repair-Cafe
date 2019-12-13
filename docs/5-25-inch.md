@@ -43,7 +43,7 @@
 
 **!IMPORTANT!** An internal floppy drive is an unstable source of power that can permanently damage the floppy drive controller, follow the correct order when connecting/disconnecting KryoFlux
 
-### Connect the internal floppy drive to workstation
+### Step 1: Connect the internal floppy drive to workstation
 
 1. Place the floppy drive controller on a non-conductive surface, e.g. on a piece of cardboard
 2. Connect the floppy disk drive to the floppy drive controller via the floppy data cable (wider adapter)
@@ -55,20 +55,21 @@
 
 ![connection](images/floppy/5-25-floppy-connection-kryoflux.png)
 
-### Let the workstation communicate with the Floppy Drive
+### Step 2: Let the workstation communicate with the Floppy Drive
 
 1. Open the Kryoflux GUI software (`kryoflux-ui.jar`)
 2. Choose _Drive_ in the menu and _Calibrate_ the drive
 3. Choose the output directory for the disk images and log files in the KryoFlux Software. Select _File_ > _Settings_ and click on the _Output_ tab. Next to _Image Path_, browse to the appropiate path and ensure that the _Logs_ check is checked. Then click _OK_
 
-### Prepare the floppy disk
+### Step 3: Prepare the floppy disk
 
-1. Cover the right notch on the floppy disk with tape or a label to disable writing on the floppy disk (see image right)
+1. Carefully take the floppy of which you want to capture the content .
+2. Cover the right notch on the floppy disk with tape or a label to disable writing on the floppy disk (see image right)
    ![right notch floppy disk](images/floppy/5-25-floppy-blocker.png)
-2. Insert the floppy into the drive. (todo: insert picture)
-3. Turn the handle down. When turning the handle down, the drive should start spinning, which stops when the handle is down.
+3. Insert the floppy into the drive. (todo: insert picture)
+4. Turn the handle down. When turning the handle down, the drive should start spinning, which stops when the handle is down.
 
-### Capture raw content of floppy (optional)
+### Step 4: Capture raw content of floppy (optional)
 
 Raw content of floppy disks can be captured in Kryoflux by creating streams. This is extremely helpfull if you don't know the logical format of the floppy. You can capture the stream once and then use the stream files to find the correct formatting. This is the safest option, since floppies are fragile. You only need to read out the floppy disk once i.s.o. potentially multiple times.
 
@@ -78,7 +79,7 @@ You can skip this step if you know the [logical format](https://github.com/archi
 2. Select the image format _KryoFlux stream files, preservation_ from the dropdown list.
 3. Enter _Start_. You should see the green _Stream_ indicator flash on and off and see the cells in the _Tracks_ display on the left of the window fill with a grey color.
 
-### Create a disk image from the raw content
+### Step 5: Create a disk image from the raw content
 
 ... or from the floppy disk if you haven't created stream files.
 
@@ -92,7 +93,7 @@ You can skip this step if you know the [logical format](https://github.com/archi
    - **Red:** The track was not imaged succesfully
    - **Grey:** the KryoFlux software could not determine the status of this track. This may or may not mean a successful read. It could indicate that this track was unformatted or that the wrong format was selected in step 1.
 
-### Eject the floppy
+### Step 6: Eject the floppy
 
 When the imaging is finished, eject the floppy disk from the drive.
 

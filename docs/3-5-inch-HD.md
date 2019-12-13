@@ -59,8 +59,9 @@ A Linux computer, preferably running the [Bitcurator Environment](https://bitcur
 
 ### Step 3: Prepare the floppy
 
-1. Pick up the floppy of which you want to capture the content
-2. Slide the switch on the disk bringing it in read-only state
+1. Grab the floppy of which you want to capture the content
+2. Slide the switch on the disk bringing it in read-only state. Look for a tiny black sliding tab in a square hole in the disks lower left corner. Slide the tab with a pencil or your thubmnail so that the hole is uncoverd.
+   ![write protection sliding tab](images/floppy/floppy_anatomy.jpg)
 
 ### Step 4: Create a disk image
 
@@ -71,7 +72,7 @@ A Linux computer, preferably running the [Bitcurator Environment](https://bitcur
     - __Linux dd raw image__ as file format
     - __uncheck__ the __Split image files__
     - under _Destination_ create a destination directory for the disk image by clicking on the button with __...__
-    - enter a file name for the disk image file in the __Image filename (without extension__ field
+    - enter a file name for the disk image file in the __Image filename (without extension)__ field
     - under _Hash calculation/verification_ check __Calculate MD5__ and __Verify image after acquisition__
 5. Press the start button
 6. When Guymager is finished, you'll see a green bullet and the text _Finished - Verified & ok_

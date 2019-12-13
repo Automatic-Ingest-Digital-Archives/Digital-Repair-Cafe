@@ -63,7 +63,7 @@ A Linux computer, preferably running the [Bitcurator Environment](https://bitcur
 
 ### Step 3: Prepare the disk
 
-1. Pick up the disk of which you want to capture the content
+1. Grab the disk of which you want to capture the content
 2. Slide the switch on the disk bringing it in read-only state
 
 ### Step 4: Create a disk image

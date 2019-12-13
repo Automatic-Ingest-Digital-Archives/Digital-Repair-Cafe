@@ -1,10 +1,21 @@
 # DRC CheatSheet
 
 ## System
-### Watch dmesg output
-`watch "dmesg | fold -w$COLUMNS | tail -n$((LINES-2))"`
 
-### create mountpount for device
+### Watch dmesg output
+
+From Wikipedia: `dmesg` is a command on most Unix-like operating systems that prints the message buffer of the kernel. It contains messages produced by the device drivers (e.g. a tape drive, a floppy drive, etc.).
+
+`watch` is a command to display the output of a command at regular intervals.
+
+Command to show the latest two lines: `watch "dmesg | fold -w$COLUMNS | tail -n$((LINES-2))"`
+
+### create mount point for device
+
+On UNIX, you need to create a mount point for your device. This is a folder where all the files and folders stored on the device will be displayed and loaded.
+
+You'll need to create the folder first. From then on, you can mount the device to the folder.
+
 ```bash
 sudo makedir /media/$user/$mountfolder
 sudo mount /dev/$device /mount/$user/$mountfolder
@@ -18,13 +29,14 @@ sudo mount /dev/$device /mount/$user/$mountfolder
 
 `lsscsi | grep tape`
 
-#### set tape device as logical device 
+#### set tape device as logical device
 
-(Must be done first) 
+This must be done first before you can do any operation to get the content of the device.
 
 `mt -f /dev/nst0 stsetoptions scsi2logical`
 
-#### check status of drive 
+#### check status of drive
+
 `tapeinfo -f /dev/nst0 ; mt -f /dev/nst0 status`
 
 ### Read
@@ -110,4 +122,5 @@ Download the software via a copy of [Internet Archive](https://web.archive.org/w
 Edit the Jazip config via `nano /usr/sbin/jazipconfig`
 
 #### ZIP SCSI & Linux Manual
-https://www.tldp.org/HOWTO/text/Jaz-Drive-HOWTO
+
+* [manual](https://www.tldp.org/HOWTO/text/Jaz-Drive-HOWTO)
