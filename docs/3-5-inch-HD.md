@@ -57,6 +57,8 @@ A Linux computer, preferably running the [Bitcurator Environment](https://bitcur
 
 1. Connect the Floppy USB Drive to the write blocker using the USB cable
 
+![setup floppy 3.5 inch HD](images/floppy/setup_HD_floppy.JPG)
+
 ### Step 3: Prepare the floppy
 
 1. Grab the floppy of which you want to capture the content
