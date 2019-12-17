@@ -85,8 +85,10 @@ A Linux computer, preferably running the [Bitcurator Environment](https://bitcur
 6. When Guymager is finished, you'll see a green bullet and the text _Finished - Verified & ok_
    ![Guymager finished](images/guymager/guymager_finished.png)
 7. Navigate to the chosen destination directory in step 4. You will see two files: a disk image with the _.dd_ extension and an information file with the _.info_ extension
-    ![Disk image and information file](images/guymager/diskimage_log.png)
-    ![Information file](images/guymager/guymager_info_file.png)
+
+![Disk image and information file](images/guymager/diskimage_log.png)
+
+![Information file](images/guymager/guymager_info_file.png)
 
 ### Step 5: Eject the disk
 
