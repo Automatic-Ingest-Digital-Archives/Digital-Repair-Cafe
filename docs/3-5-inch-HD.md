@@ -66,17 +66,24 @@ A Linux computer, preferably running the [Bitcurator Environment](https://bitcur
 ### Step 4: Create a disk image
 
 1. Insert the floppy in the Floppy USB Drive
-2. Navigate to the Imaging folder on the Desktop and start Guymager
-3. Right click on the entry for the Zip Drive and select _Acquire image_
+2. Start **Guymager**. You will find Guymager in the _Imaging and Recovery_ folder of _Desktop_
+   ![Guymager in BitCurator](images/guymager/guymager_location.png)
+3. Right click on the entry for the Zip Drive and select _Acquire image_. You will find the Zip Drive entry under the Linux device (second column) `/dev/sda`
+    ![Linux device](images/guymager/linux_device.png)
+    ![Acquire image](images/guymager/acquire_image.png)
 4. Add following settings in the dialog:
-    - __Linux dd raw image__ as file format
-    - __uncheck__ the __Split image files__
-    - under _Destination_ create a destination directory for the disk image by clicking on the button with __...__
-    - enter a file name for the disk image file in the __Image filename (without extension)__ field
-    - under _Hash calculation/verification_ check __Calculate MD5__ and __Verify image after acquisition__
-5. Press the start button
+   - **Linux dd raw image** as file format
+   - **uncheck** the **Split image files**
+   - under _Destination_ create a destination directory for the disk image by clicking on the button with **...**
+   - enter a file name for the disk image file in the **Image filename (without extension)** field
+   - under _Hash calculation/verification_ check **Calculate MD5** and **Verify image after acquisition**
+5. Press the start button. Guymager wil start acquiring and verifying the image
+    ![Guymager running](images/guymager/guymager_running.png)
 6. When Guymager is finished, you'll see a green bullet and the text _Finished - Verified & ok_
-7. Navigate to the chosen destination directory in nr. 4 of this step. You will see two files: a disk image with the _.dd_ extension and an information file with the _.info_ extension
+   ![Guymager finished](images/guymager/guymager_finished.png)
+7. Navigate to the chosen destination directory in step 4. You will see two files: a disk image with the _.dd_ extension and an information file with the _.info_ extension
+    ![Disk image and information file](images/guymager/diskimage_log.png)
+    ![Information file](images/guymager/guymager_info_file.png)
 
 ### Step 5: Eject the disk
 
