@@ -45,13 +45,15 @@
 
 ### Step 1: Connect the internal floppy drive to workstation
 
-1. Place the floppy drive controller on a non-conductive surface, e.g. on a piece of cardboard
-2. Connect the floppy disk drive to the floppy drive controller via the floppy data cable (wider adapter)
+1. Connect the floppy data cable to the floppy drive controller. Make sure that the red side of the data cable is on the same side of the USB (pic)
    ![cables](images/floppy/floppy_power_data_cable.png)
-3. Connect the floppy drive controller to the workstation via the USB type A cable
-4. Connect the floppy drive to the power supply via the Molex-Y cable (wider adapter plug)
+   ![setup kryoflux](images/kryoflux/kryoflux_board.JPG)
+2. Place the floppy drive controller on a non-conductive surface, e.g. on a piece of cardboard
+3. Connect the floppy disk drive to the floppy drive controller via the floppy data cable (widest adapter). Don't twist the cable. The red side of the cable should be on the right side of the floppy disk drive (pic). %TODO: pic
+4. Connect the floppy drive controller to the workstation via the USB type A cable %TODO: pic
+5. Connect the floppy drive to the power supply via the Molex-Y cable (wider adapter plug)
    ![power](images/floppy/5-25-floppy-power.png)
-5. Plug the power into an outlet
+6. Plug the power into an outlet
 
 ![connection](images/floppy/5-25-floppy-connection-kryoflux.png)
 
@@ -59,15 +61,19 @@
 
 1. Open the Kryoflux GUI software (`kryoflux-ui.jar`)
 2. Choose _Drive_ in the menu and _Calibrate_ the drive
+   ![calibrate kryoflux](images/kryoflux/kryoflux_calibrate.png)
 3. Choose the output directory for the disk images and log files in the KryoFlux Software. Select _File_ > _Settings_ and click on the _Output_ tab. Next to _Image Path_, browse to the appropiate path and ensure that the _Logs_ check is checked. Then click _OK_
+   ![kryoflux settings](images/kryoflux/kryoflux_settings.png)
+   ![kryoflux settings output folder](images/kryoflux/kroyflux_settings_output.png)
 
 ### Step 3: Prepare the floppy disk
 
-1. Carefully take the floppy of which you want to capture the content .
-2. Cover the right notch on the floppy disk with tape or a label to disable writing on the floppy disk (see image right)
+1. Carefully take the floppy you want to capture.
+2. Cover the right notch on the floppy disk with tape or a label to disable writing on the floppy disk (pic)
    ![right notch floppy disk](images/floppy/5-25-floppy-blocker.png)
-3. Insert the floppy into the drive. (todo: insert picture)
-4. Turn the handle down. When turning the handle down, the drive should start spinning, which stops when the handle is down.
+3. Insert the floppy into the drive (Read/Write window towards the drive and facing upwards)
+   ![5,25 inch floppy anatomy](images/floppy/5_25_anatomy.png)
+4. Turn the handle down. When turning the handle down, the drive should start spinning, which stops when the handle is fully down.
 
 ### Step 4: Capture raw content of floppy (optional)
 
@@ -77,6 +83,7 @@ You can skip this step if you know the [logical format](https://github.com/archi
 
 1. Enter a unique identifier for your floppy. Click on _Enter name..._ and type in the ID. This will become the filename.
 2. Select the image format _KryoFlux stream files, preservation_ from the dropdown list.
+   ![enter metadata for stream](images/kryoflux/kryoflux_setup_capture.png)
 3. Enter _Start_. You should see the green _Stream_ indicator flash on and off and see the cells in the _Tracks_ display on the left of the window fill with a grey color.
 
 ### Step 5: Create a disk image from the raw content
@@ -85,13 +92,20 @@ You can skip this step if you know the [logical format](https://github.com/archi
 
 1. Configure the KryoFlux Software
    - (only if you created stream files) Select _Drive_ in the KryoFlux menu and choose _Stream Files_.
+     ![setup stream files](images/kryoflux/kryoflux_settings_stream.png)
    - Enter a unique identifier by clicking on _Enter name..._ Do not include an extension.
    - Select in the dropdown list the image format for the disk image (see table 1 or [Wikipedia](https://en.wikipedia.org/wiki/List_of_floppy_disk_formats#Logical_formats) for guidelines). If you want to select multiple output formats, you can do so by holding down the _ctrl_ or _cmd_ (mac) while making the selections.
+     ![kryoflux choose format](images/kryoflux/kryoflux_choose_format.png)
 2. Press _Start_. You should see the green _Stream_ indicator flash on and off and see the cells in the _Tracks_ display on the left of the window fill with a green, orange, red and/or grey color.
    - **Green:** The track was imaged successfully
    - **Orange:** The track was images succesfully, but is modified since the first formatting. You will likely see this color in archival material. It just means that the owner or user saved and erased files multiple times on the floppy
    - **Red:** The track was not imaged succesfully
    - **Grey:** the KryoFlux software could not determine the status of this track. This may or may not mean a successful read. It could indicate that this track was unformatted or that the wrong format was selected in step 1.
+
+![kryoflux busy](images/kryoflux/kryoflux_busy.png)
+![kryoflux fail](images/kryoflux/kryoflux_geen_success.png)
+![kryoflux busy](images/kryoflux/kryoflux_success.png)
+![kryoflux busy](images/kryoflux/kryoflux_modified.png)
 
 ### Step 6: Eject the floppy
 

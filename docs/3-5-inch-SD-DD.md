@@ -89,12 +89,12 @@ You can skip this step if you know the [logical format](https://github.com/archi
      ![setup stream files](images/kryoflux/kryoflux_settings_stream.png)
    - Enter a unique identifier by clicking on _Enter name..._ Do not include an extension.
    - Select in the dropdown list the image format for the disk image (see table 1 or [Wikipedia](https://en.wikipedia.org/wiki/List_of_floppy_disk_formats#Logical_formats) for guidelines). If you want to select multiple output formats, you can do so by holding down the _ctrl_ or _cmd_ (mac) while making the selections.
-   - ![kryoflux choose format](images/kryoflux/kryoflux_choose_format.png)
+     ![kryoflux choose format](images/kryoflux/kryoflux_choose_format.png)
 2. Press _Start_. You should see the green _Stream_ indicator flash on and off and see the cells in the _Tracks_ display on the left of the window fill with a green, orange, red and/or grey color.
-   - Green: The track was imaged successfully
-   - Orange: The track was images succesfully, but is modified since the first formatting. You will likely see this color in archival material. It just means that the owner or user saved and erased files multiple times on the floppy
-   - Red: The track was not imaged succesfully
-   - Grey: the KryoFlux software could not determine the status of this track. This may or may not mean a successful read. It could indicate that this track was unformatted or that the wrong format was selected in step 1.
+   - **Green:** The track was imaged successfully
+   - **Orange:** The track was images succesfully, but is modified since the first formatting. You will likely see this color in archival material. It just means that the owner or user saved and erased files multiple times on the floppy
+   - **Red:** The track was not imaged succesfully
+   - **Grey:** the KryoFlux software could not determine the status of this track. This may or may not mean a successful read. It could indicate that this track was unformatted or that the wrong format was selected in step 1.
   
 ![kryoflux busy](images/kryoflux/kryoflux_busy.png)
 ![kryoflux fail](images/kryoflux/kryoflux_geen_success.png)
