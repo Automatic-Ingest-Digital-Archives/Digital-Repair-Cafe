@@ -61,10 +61,10 @@
 
 1. Open the Kryoflux GUI software (`kryoflux-ui.jar`)
 2. Choose _Drive_ in the menu and _Calibrate_ the drive
-   ![calibrate kryoflux](images/kryoflux/kryoflux_calibrate.png)
+     ![calibrate kryoflux](images/kryoflux/kryoflux_calibrate.png)
 3. Choose the output directory for the disk images and log files in the KryoFlux Software. Select _File_ > _Settings_ and click on the _Output_ tab. Next to _Image Path_, browse to the appropiate path and ensure that the _Logs_ check is checked. Then click _OK_
-   ![kryoflux settings](images/kryoflux/kryoflux_settings.png)
-   ![kryoflux settings output folder](images/kryoflux/kroyflux_settings_output.png)
+     ![kryoflux settings](images/kryoflux/kryoflux_settings.png)
+     ![kryoflux settings output folder](images/kryoflux/kroyflux_settings_output.png)
 
 ### Step 3: Prepare the floppy disk
 
