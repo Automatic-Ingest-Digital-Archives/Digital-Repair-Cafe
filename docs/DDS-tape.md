@@ -11,7 +11,7 @@
 |**Connector**|USB 1.1|
 |**Cable**|n/a - built in|
 |**Workstation connection**|Can be connected directly with write blocker (which has a USB type A female connection|
-|**Power**| n/a |
+|**Power**| 3 pin shroud female IEC 60320/C13 ([Wikipedia](https://en.wikipedia.org/wiki/IEC_60320#C13/C14_coupler)) |
 |**Documentation**| [user guide](https://support.hpe.com/hpsc/doc/public/display?docId=emr_na-c02221551) |
 
 ## Software
