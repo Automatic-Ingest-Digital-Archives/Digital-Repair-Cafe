@@ -48,14 +48,14 @@ A Linux computer, preferably running the [Bitcurator Environment](https://bitcur
 
 ### Step 1: Connect the write blocker to the workstation
 
-1. Connect the write blocker to the workstation using the blue USB 3.0 cable
-2. Connect the DC power supply to the write blocker
+1. Connect the write blocker to the workstation using the blue USB 3.0 cable (Host USB 3.0)
+2. Connect the DC power supply to the write blocker (bottom)
 3. Plug the power cable into a power socket
 4. Press the power button on the write blocker
 
 ### Step 2: Connect the Floppy USB Drive to the write blocker
 
-1. Connect the Floppy USB Drive to the write blocker using the USB cable
+1. Connect the Floppy USB Drive to the write blocker using the USB cable (Device USB 3.0)
 
 ![setup floppy 3.5 inch HD](images/floppy/setup_HD_floppy.JPG)
 
