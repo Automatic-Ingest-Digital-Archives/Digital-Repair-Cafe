@@ -116,3 +116,4 @@ When the imaging is finished, eject the floppy disk from the drive.
 | 3.5 inch HD    | Macintosh       | MFM Sector Image      |
 | 3.5 inch DD/HD | Atari           | MFM Sector Image      |
 | 3.5 inch DD/HD | Commodore Amiga | AmigaDOS sector image |
+| 3.5 inch DD    | Commodore Business Machine | CBM GCR    |
