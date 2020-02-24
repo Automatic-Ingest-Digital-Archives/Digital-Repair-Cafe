@@ -1,10 +1,10 @@
-# Imitiation SuperDisk
+# Imation SuperDisk
 
 ## Hardware
 
 ### SuperDisk drive
 
-|**Model**|[Imitation SuperDisk USB drive](https://web.archive.org/web/20150813195555/http://www.cnet.com/products/imation-superdisk-ls-120-superdisk-drive-usb-series/specs/) |
+|**Model**|[Imation SuperDisk USB drive](https://web.archive.org/web/20150813195555/http://www.cnet.com/products/imation-superdisk-ls-120-superdisk-drive-usb-series/specs/) |
 |:--|:--|
 |**Media**|SuperDisk LS-120 and 3.5 inch floppy disk|
 |**Interface**|[IDE](https://www.wikidata.org/wiki/Q230360)|
