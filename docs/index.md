@@ -1,3 +1,0 @@
-## Digital Repair Café
-
-### Manuals
