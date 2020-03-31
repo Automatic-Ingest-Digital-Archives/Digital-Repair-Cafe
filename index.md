@@ -1,4 +1,6 @@
-[ uitleg over het project ]
+In this project a central service to capture data from obsolete media is developed. It's hosted at [meemoo, Flemish Inistute for Archives](https://meemoo.be). Obsolete media are all the media containing digital data that still work technically, but which can no longer be read by modern computers. Examples include 5.25-inch floppy disks, Zip disks,  magneto-optical disks and all kind of tapes.
+
+[Contact Maarten Savels](mailto:maarten.savels@amsab.be?subject=Digital%20Repair%20Cafe)
 
 ## Manuals
 
