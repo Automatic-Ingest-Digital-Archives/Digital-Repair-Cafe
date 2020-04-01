@@ -6,7 +6,7 @@ Obsolete media are all the media containing digital data that still work technic
 
 ## Drives
 
-[Overview of our drives](drives-overview.md)
+* [Overview of our drives](drives-overview.md)
 
 ## Manuals
 
