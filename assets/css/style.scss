@@ -3,6 +3,8 @@
 table {
 
     border-collapse: collapse !important;
+    border-spacing: 0;
+    border: 2px solid black;
 
     th,
     td {
