@@ -1,5 +1,7 @@
 # Our Drives
 
+Overview of our drives, including interfaces.
+
 | **Drive**                          | **SCSI-1** | **SCSI-2** | **USB** | **IDE** | **floppy data cable** | **parallel port** |
 | :--------------------------------- | :--------- | :--------- | :------ | :------ | :-------------------- | :---------------- |
 | 3.25" floppy                       |            |            |         |         | 1                     |                   |
