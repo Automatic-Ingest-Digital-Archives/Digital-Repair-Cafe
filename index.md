@@ -1,4 +1,6 @@
-In this project a central service to capture data from obsolete media is developed. It's hosted at [meemoo, Flemish Inistute for Archives](https://meemoo.be). Obsolete media are all the media containing digital data that still work technically, but which can no longer be read by modern computers. Examples include 5.25-inch floppy disks, Zip disks, magneto-optical disks and all kind of tapes.
+Digital Repair Cafe is a project of [Amsab-ISG](https://www.amsab.be/) (coordinator), [ADVN](https://advn.be), [AMVB](https://www.amvb.be/), [AVG-CARHIF](http://www.avg-carhif.be/cms/index.php), [CAVA](https://www.cavavub.be/), [Letterenhuis](https://www.letterenhuis.be), [VAi](https://www.vai.be/) and [meemoo](https://www.packed.be/). In this project a central service to capture data from obsolete media is developed. The service is managed by [meemoo, Flemish Inistute for Archives](https://meemoo.be). 
+
+Obsolete media are all the media containing digital data that still work technically, but which can no longer be read by modern computers. Examples include 5.25-inch floppy disks, Zip disks, magneto-optical disks and various tape formats.
 
 [Contact Maarten Savels (Amsab-ISG)](mailto:maarten.savels@amsab.be?subject=Digital%20Repair%20Cafe) for more information about the project.
 
