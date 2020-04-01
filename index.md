@@ -2,6 +2,8 @@ In this project a central service to capture data from obsolete media is develop
 
 [Contact Maarten Savels (Amsab-ISG)](mailto:maarten.savels@amsab.be?subject=Digital%20Repair%20Cafe) for more information about the project.
 
+[Overview of our drives](drives-overview.md)
+
 ## Manuals
 
 ### Identifying media
