@@ -2,8 +2,10 @@
 
 table {
 
+    border-collapse: collapse !important;
+
     th,
     td {
-        border-right: 1px solid #e5e5e5 !important;
+        border: 1px solid #e5e5e5;
     }
 }
