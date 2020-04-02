@@ -6,17 +6,17 @@ Obsolete media are all the media containing digital data that still work technic
 
 ## Deliverables
 
-* [Form for registration of old media](https://docs.google.com/spreadsheets/d/1pHMxuXhtgddlfF7JHfE6gS8JwByIXrVscXJZPcKQd4o/edit?usp=sharing) (dutch)
+* [Form for registration of old media](https://docs.google.com/spreadsheets/d/1pHMxuXhtgddlfF7JHfE6gS8JwByIXrVscXJZPcKQd4o/edit?usp=sharing){:target="_blank"} (dutch)
 * [Overview of our drives](drives-overview.md)
-* [Presentation _Identifying old media_](https://docs.google.com/presentation/d/1GRNEi5t7M7YzsaXXHO4_W64boAWQV1v-bElCXi4gCV8/edit?usp=sharing) (dutch)
-* Presentation workshop _Capturing content of obsolete media_: [part 1](https://docs.google.com/presentation/d/1luILBsmTrH5f-9AU2T04wv-KyiDC30XfXJDWTEmKm5g/edit?usp=sharing) & [part 2](https://docs.google.com/presentation/d/1cxSla_lpvipakG27pLr50TV1tKFzUvjKR5GJePpDW3Q/edit?usp=sharing) (dutch)
+* [Presentation _Identifying old media_](https://docs.google.com/presentation/d/1GRNEi5t7M7YzsaXXHO4_W64boAWQV1v-bElCXi4gCV8/edit?usp=sharing){:target="_blank"} (dutch)
+* Presentation workshop _Capturing content of obsolete media_: [part 1](https://docs.google.com/presentation/d/1luILBsmTrH5f-9AU2T04wv-KyiDC30XfXJDWTEmKm5g/edit?usp=sharing){:target="_blank"} & [part 2](https://docs.google.com/presentation/d/1cxSla_lpvipakG27pLr50TV1tKFzUvjKR5GJePpDW3Q/edit?usp=sharing){:target="_blank"} (dutch)
 * Setup and workflows for capturing various obsolete media are included in the manuals
 
 ## Manuals
 
 ### Identifying media
 
-* [Handleiding verouderde dragers herkennen](https://www.projectcest.be/wiki/Publicatie:Handleiding_Verouderde_Dragers_Herkennen) (dutch)
+* [Handleiding verouderde dragers herkennen](https://www.projectcest.be/wiki/Publicatie:Handleiding_Verouderde_Dragers_Herkennen){:target="_blank"} (dutch)
 
 ### Capturing content
 
