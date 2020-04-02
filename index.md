@@ -18,7 +18,9 @@ Obsolete media are all the media containing digital data that still work technic
 
 * [Handleiding verouderde dragers herkennen](https://www.projectcest.be/wiki/Publicatie:Handleiding_Verouderde_Dragers_Herkennen) (dutch)
 
-### Capturing content - Setup and workflow
+### Capturing content
+
+Included: setup and workflow
 
 * [3.5 inch high density diskettes](manuals/3-5-inch-HD.md)
 * [3.5 inch single density or double density diskettes](manuals/3-5-inch-SD-DD.md)
