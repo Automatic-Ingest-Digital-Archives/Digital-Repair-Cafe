@@ -108,14 +108,12 @@ Decide if you want to create a disk image or just copy all the files. We recomme
 
 ##### Option 1 - disk image
 
-1. Start **Guymager**. You will find Guymager in the _Imaging and Recovery_ folder of _Desktop_
-   ![Guymager in BitCurator](images/guymager/guymager_location.png)
-2. Right click on the entry for the Zip Drive and select _Acquire image_. You will find the Zip Drive entry under the Linux device (second column) `/dev/sda`
+1. Start **Guymager**. You will find Guymager in the Applications tab undere _Imaging and Recovery_
+2. Right click on the entry for the Hard drive and select _Acquire image_. You will find the Hard drive entry under the Linux device (second column) `/dev/sda`
     ![Linux device](images/guymager/linux_device.png)
     ![Acquire image](images/guymager/acquire_image.png)
 3. Add following settings in the dialog:
    - **Linux dd raw image** as file format
-   - **uncheck** the **Split image files**
    - under _Destination_ create a destination directory for the disk image by clicking on the button with **...**
    - enter a file name for the disk image file in the **Image filename (without extension)** field
    - under _Hash calculation/verification_ check **Calculate MD5** and **Verify image after acquisition**
@@ -132,6 +130,15 @@ Decide if you want to create a disk image or just copy all the files. We recomme
 ##### Option 2: Copy all the files with (G)rsync
 
 If you're familiar with the command line and `rsync`, you can also use `rsync`. Remind to use the archive function via `rsync -a`.
+
+1. Start **Grsync** You will find Grsync in the Applications tab undere _Packaging and Transfer_
+2. Define the Source and Destination under the basic options tab
+   - in the first field the path to the source data is expected. Use 'Open' to navigate to the hard drive. You'll find the mounted hard drive under `/media/bcadmin/[name-of-hard-drive]`.
+   - in the second field, enter the path to the location where the data should be copied.
+   - next, check at least following options: **Preserve Time**, **Preserve Owner**,**Preserve Permissions**, **Show Transfer progress**. This options take care that the original metadata of the files will be copied to the destination.
+3. In the _Advanced options_ menu, check following options: **Always Checksum**, **Preserve Devices**, **Copy simlinks as simlinks** and **Copy hardlinks as hardlinks.
+4. Start the transfer by pressing the button with the gear icons in the top right of Grsync.
+5. All files are copied.
 
 ### Step 5: Eject the disk
 
