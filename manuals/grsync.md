@@ -1,4 +1,4 @@
-Safely copy files from disks usings Grsync
+# Safely copy files from disks usings Grsync
 
 Grsync is a GUI alternative for `rsync`. Just like `rsync`, Grsync uses checksums to verify if copied files are identical to their source. `rsync` is a differential backup and file synchronization tool widely used in Unix-like operation systems ([wikipedia](https://en.wikipedia.org/wiki/Grsync))
 
