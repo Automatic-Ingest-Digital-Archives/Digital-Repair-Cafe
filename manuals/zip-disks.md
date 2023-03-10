@@ -52,26 +52,7 @@ A computer running the [Bitcurator Environment](https://bitcurator.net/) (We use
 ### Step 3: Create a disk image
 
 1. Insert a Zip Diks in the Zip Drive
-2. Start **Guymager**. You will find Guymager in the _Imaging and Recovery_ folder of _Desktop_
-   ![Guymager in BitCurator](images/guymager/guymager_location.png)
-3. Right click on the entry for the Zip Drive and select _Acquire image_. You will find the Zip Drive entry under the Linux device (second column) `/dev/sda`
-    ![Linux device](images/guymager/linux_device.png)
-    ![Acquire image](images/guymager/acquire_image.png)
-4. Add following settings in the dialog:
-   - **Linux dd raw image** as file format
-   - **uncheck** the **Split image files**
-   - under _Destination_ create a destination directory for the disk image by clicking on the button with **...**
-   - enter a file name for the disk image file in the **Image filename (without extension)** field
-   - under _Hash calculation/verification_ check **Calculate MD5** and **Verify image after acquisition**
-5. Press the start button. Guymager wil start acquiring and verifying the image
-    ![Guymager running](images/guymager/guymager_running.png)
-6. When Guymager is finished, you'll see a green bullet and the text _Finished - Verified & ok_
-   ![Guymager finished](images/guymager/guymager_finished.png)
-7. Navigate to the chosen destination directory in step 4. You will see two files: a disk image with the _.dd_ extension and an information file with the _.info_ extension
-
-![Disk image and information file](images/guymager/diskimage_log.png)
-
-![Information file](images/guymager/guymager_info_file.png)
+2. [Create a disk image using Guymager](guymager.md)
 
 ### Step 4: Eject the disk
 
