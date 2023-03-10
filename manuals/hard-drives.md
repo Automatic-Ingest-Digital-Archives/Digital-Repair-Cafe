@@ -86,14 +86,16 @@ We discourage the use of this workflow if you're working on Mac formatted hard d
 
 ## Workflow
 
-### Setup #1 - write blocker
+### Setup #1 - Write blocker
 
-#### Step 1: Connect the hard disks to the write blocker
+#### Step 1: Connect the hard disk to the write blocker
 
 1. Choose the appropriate cable
     - Use the IDE cable when you've got an IDE hard disk
     - Use the SATA cable when you've got a SATA hard disk
 2. Connect the hard disk to the write blocker
+
+![setup hard drive and write blocker](images/hard_drive_writeblocker.jpg)
 
 #### Step 2: Connect the write blocker to the workstation
 
@@ -106,42 +108,41 @@ We discourage the use of this workflow if you're working on Mac formatted hard d
 
 Decide if you want to create a disk image or just copy all the files. We recommend creating a disk image.
 
-##### Option 1 - disk image
+* Create a disk image using Guymager
+* Copy all files safely using Grsync. If you're familiar with the command line and `rsync`, you can also use `rsync`. Use the archive function via `rsync -a`
 
-1. Start **Guymager**. You will find Guymager in the Applications tab undere _Imaging and Recovery_
-2. Right click on the entry for the Hard drive and select _Acquire image_. You will find the Hard drive entry under the Linux device (second column) `/dev/sda`
-    ![Linux device](images/guymager/linux_device.png)
-    ![Acquire image](images/guymager/acquire_image.png)
-3. Add following settings in the dialog:
-   - **Linux dd raw image** as file format
-   - under _Destination_ create a destination directory for the disk image by clicking on the button with **...**
-   - enter a file name for the disk image file in the **Image filename (without extension)** field
-   - under _Hash calculation/verification_ check **Calculate MD5** and **Verify image after acquisition**
-4. Press the start button. Guymager wil start acquiring and verifying the image
-    ![Guymager running](images/guymager/guymager_running.png)
-5. When Guymager is finished, you'll see a green bullet and the text _Finished - Verified & ok_
-   ![Guymager finished](images/guymager/guymager_finished.png)
-6. Navigate to the chosen destination directory in step 4. You will see two files: a disk image with the _.dd_ extension and an information file with the _.info_ extension
-
-![Disk image and information file](images/guymager/diskimage_log.png)
-
-![Information file](images/guymager/guymager_info_file.png)
-
-##### Option 2: Copy all the files with (G)rsync
-
-If you're familiar with the command line and `rsync`, you can also use `rsync`. Remind to use the archive function via `rsync -a`.
-
-1. Start **Grsync** You will find Grsync in the Applications tab undere _Packaging and Transfer_
-2. Define the Source and Destination under the basic options tab
-   - in the first field the path to the source data is expected. Use 'Open' to navigate to the hard drive. You'll find the mounted hard drive under `/media/bcadmin/[name-of-hard-drive]`.
-   - in the second field, enter the path to the location where the data should be copied.
-   - next, check at least following options: **Preserve Time**, **Preserve Owner**,**Preserve Permissions**, **Show Transfer progress**. This options take care that the original metadata of the files will be copied to the destination.
-3. In the _Advanced options_ menu, check following options: **Always Checksum**, **Preserve Devices**, **Copy simlinks as simlinks** and **Copy hardlinks as hardlinks.
-4. Start the transfer by pressing the button with the gear icons in the top right of Grsync.
-5. All files are copied.
-
-### Step 5: Eject the disk
+### Step 5: Remove the hard disk
 
 1. If the hard disk is mounted, remove it safely
 2. Power off the write blocker
 3. Disconnect the hard disk from the write blocker
+
+### Setup #2 - Docking station
+
+#### Step 1: Connect the docking station to the workstation
+
+1. Connect the write blocker to the workstation using the blue USB 3.0 cable (Host USB 3.0)
+2. Connect the DC power supply to the write blocker (bottom)
+3. Plug the power cable into a power socket
+4. Press the power button on the write blocker
+
+#### Step 2: Connect the docking station to the write blocker
+
+1. Connect the docking station to the write blocker using the USB cable
+2. Connect the power cable to the drive abd plug the power cable into a power socket.
+
+### Step 3: Create a disk image or copy the files
+
+1. Plug one or more hard drives into the docking station. Make sure that the hard drive connectors match those of the docking station. 
+
+![setup hard drive and docking station](images/hard_drive_docking_station.jpg)
+
+1. Decide if you want to create a disk image or just copy all the files. We recommend creating a disk image.
+   * Create a disk image using Guymager
+   * Copy all files safely using Grsync. If you're familiar with the command line and `rsync`, you can also use `rsync`. Use the archive function via `rsync -a`
+
+### Step 4: Remove the hard disk(s)
+
+1. If the hard disk is mounted, remove it safely
+2. Power off the write blocker
+3. Remove the hard disk(s) from the docking station
