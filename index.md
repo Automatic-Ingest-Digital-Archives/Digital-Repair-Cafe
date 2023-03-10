@@ -27,6 +27,7 @@ Included: setup and workflow
 * [3.5 inch single density or double density diskettes](manuals/3-5-inch-SD-DD.md)
 * [5.25 inch floppies](manuals/5-25-inch.md)
 * [DDS tapes](manuals/DDS-tape.md) (only setup - workflow still in progress)
+* [hard disks](manuals/hard-drives.md)
 * [magneto-optical (M.O.) discs](manuals/MO-disks.md)
 * [optical discs](manuals/optical-disc.md) (only data - no audio cd's)
 * [SuperDisk disks](manuals/superdisk.md)
