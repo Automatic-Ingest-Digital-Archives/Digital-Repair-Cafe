@@ -108,8 +108,8 @@ We discourage the use of this workflow if you're working on Mac formatted hard d
 
 Decide if you want to create a disk image or just copy all the files. We recommend creating a disk image.
 
-* Create a disk image using Guymager
-* Copy all files safely using Grsync. If you're familiar with the command line and `rsync`, you can also use `rsync`. Use the archive function via `rsync -a`
+* [Create a disk image using Guymager](guymager.md)
+* [Copy all files safely using Grsync](grsync.md). If you're familiar with the command line and `rsync`, you can also use `rsync`. Use the archive function via `rsync -a`
 
 ### Step 5: Remove the hard disk
 
@@ -138,8 +138,8 @@ Decide if you want to create a disk image or just copy all the files. We recomme
 ![setup hard drive and docking station](images/hard_drive_docking_station.jpg)
 
 1. Decide if you want to create a disk image or just copy all the files. We recommend creating a disk image.
-   * Create a disk image using Guymager
-   * Copy all files safely using Grsync. If you're familiar with the command line and `rsync`, you can also use `rsync`. Use the archive function via `rsync -a`
+   * [Create a disk image using Guymager](guymager.md)
+   * [Copy all files safely using Grsync](grsync.md). If you're familiar with the command line and `rsync`, you can also use `rsync`. Use the archive function via `rsync -a`
 
 ### Step 4: Remove the hard disk(s)
 
