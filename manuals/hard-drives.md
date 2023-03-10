@@ -15,7 +15,7 @@ There are two possible setups: one where only using a write blocker/bride, one w
 |**Model**|[Tableau Forensic USB 3.0 Bridge T8U](https://web.archive.org/web/20180409191526/https://www.guidancesoftware.com/tableau/hardware//t8u) |
 |:--|:--|
 |**Media**|Drives with SATA or IDE interface|
-|**Interface**|<ul><li>[SATA](https://www.wikidata.org/wiki/Q188639)</li><li>[IDE](https://www.wikidata.org/wiki/Q230360)</li></ul>|
+|**Interface**|[SATA](https://www.wikidata.org/wiki/Q188639)<br>[IDE](https://www.wikidata.org/wiki/Q230360)|
 |**Connector**|USB 3.0|
 |**Cable**|[USB type B to USB type A](https://commons.wikimedia.org/wiki/Category:USB_cables?uselang=nl#/media/File:A-B_Usb_Cable.jpg)|
 |**Workstation connection**|Can be connected directly with workstation (which has a USB type A female connection|
@@ -28,7 +28,7 @@ There are two possible setups: one where only using a write blocker/bride, one w
 |**Model**|[4-Bay USB 3.0 SATA 2.5"/3.5" SSD/HDD Docking Station](https://web.archive.org/web/20230210101406/https://sabrent.com/collections/docking-station/products/ds-u3b4) |
 |:--|:--|
 |**Media**|2.5" SATA hard disks<br>3.5" SATA hard disks<br>2.5" IDE hard disks<br>3.5" IDE hard disks|
-|**Interface**|<ul><li>[SATA](https://www.wikidata.org/wiki/Q188639)</li><li>[IDE](https://www.wikidata.org/wiki/Q230360)</li></ul>|
+|**Interface**|[SATA](https://www.wikidata.org/wiki/Q188639)br[IDE](https://www.wikidata.org/wiki/Q230360)|
 |**Connector**|USB 3.0|
 |**Cable**|USB 3.0 type B to type A|
 |**Workstation connection**|Via USB write blocker|
