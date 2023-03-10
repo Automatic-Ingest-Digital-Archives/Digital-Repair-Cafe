@@ -4,7 +4,7 @@ Grsync is a GUI alternative for `rsync`. Just like `rsync`, Grsync uses checksum
 
 ## Installation
 
-Install Grsync using following command in the terminal:
+Install Grsync using following commands in the terminal:
 
 ```bash
 sudo apt update
