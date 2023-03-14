@@ -59,7 +59,7 @@ A Linux computer, preferably running the [Bitcurator Environment](https://bitcur
     - use the Fujitsu DynaMO 1300U2 Pocket for disks with a capacity of 1.3 GB or less
     - Use the Fujitsu DynaMO 2300U2 for disks with a capacity over 1.3 GB
 2. Connect the M.O Drive to the write blocker using the USB cable
-3. (When using the 2300U2, connect the power cable to the drive abd plug the power cable into a power socket)
+3. (When using the 2300U2, connect the power cable to the drive and plug the power cable into a power socket)
 
 ### Step 3: Prepare the disk
 
