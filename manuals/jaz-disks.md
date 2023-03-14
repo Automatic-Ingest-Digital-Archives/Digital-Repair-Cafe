@@ -6,7 +6,7 @@
 
 | **Model** | [Iomega 2GB Jaz drive](https://web.archive.org/web/20210425034320/https://miap.hosting.nyu.edu/program/student_work/2005fall/05f_1805_felixdidier_a2_y.pdf) |
 |:--|:--|
-| **Media** | Jaz 2 GB and Jaz 1 GB |
+| **Media** | Jaz 2 GB<br>Jaz 1 GB |
 | **Interface** | [SCSI](https://www.wikidata.org/wiki/Q220868) |
 | **Connector** | SCSI-2 DB50 |
 | **Cable** | SCSI-2 DB50 to USB type A ![SCSI](images/SCSI-adapter.jpg) |
