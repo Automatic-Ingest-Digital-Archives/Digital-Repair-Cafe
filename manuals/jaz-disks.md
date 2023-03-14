@@ -1,4 +1,4 @@
-# Jaz disks (still TODO)
+# Jaz disks
 
 ## Hardware
 
