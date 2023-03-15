@@ -48,7 +48,7 @@ There are two possible setups: one where only using a write blocker/bride, one w
 
 ### Workstation
 
-A Linux computer, preferably running the [Bitcurator Environment](https://bitcurator.net/) (We use a dual boot Dell XPS)
+A Linux computer, preferably running the [Bitcurator Environment](https://bitcurator.net/) (We use a Dell XPS)
 
 ## Software
 

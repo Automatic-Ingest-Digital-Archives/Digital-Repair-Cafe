@@ -14,6 +14,10 @@
 |**Power**| 3 pin shroud female IEC 60320/C13 ([Wikipedia](https://en.wikipedia.org/wiki/IEC_60320#C13/C14_coupler)) |
 |**Documentation**| [user guide](https://support.hpe.com/hpsc/doc/public/display?docId=emr_na-c02221551) |
 
+### Workstation
+
+A Linux computer, preferably running the [Bitcurator Environment](https://bitcurator.net/) (We use a Dell XPS)
+
 ## Software
 
 [Tapeimgr](https://github.com/KBNLresearch/tapeimgr) in the [Bitcurator Environment](https://bitcurator.net/)
@@ -32,9 +36,8 @@
 1. Grab the disk you want to capture
 2. Slide the switch on the bottom of the tape to the left, bringing it in read-only state<br>
 ![DDS writable](images/DDS/DDS_writeable.jpg) ![DDS readonly](images/DDS/DDS_readonly.jpg)
-3. Insert the tape carefully in the drive
-   
-![tape in drive](images/DDS/tape_in_drive.jpg)
+3. Insert the tape carefully in the drive<br>
+   ![tape in drive](images/DDS/tape_in_drive.jpg)
 
 ### Step 3: Create an image
 

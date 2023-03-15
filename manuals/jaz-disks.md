@@ -36,6 +36,10 @@
 | **Power** | DC input: 5-pin Mini-DIN connector |
 | **Documentation** |   |
 
+### Workstation
+
+A Linux computer, preferably running the [Bitcurator Environment](https://bitcurator.net/) (We use a Dell XPS)
+
 ## Software
 
 - [Guymager](https://guymager.sourceforge.io/) in the [Bitcurator Environment](https://bitcurator.net/)
