@@ -24,20 +24,16 @@
 
 1. Use the built-in USB cable to connect the drive to the workstation
 2. Attach the power cable to the drive and plug the power cable into a power socket
-3. Use the switch on the back of the drive to power on the DDS drive
-![power on DDS](images/DDS/connect_power.jpg)
-4. The setup is now ready for use
-![DDS setup](images/DDS/DDS_setup.jpg)
+3. Use the switch on the back of the drive to power on the DDS drive<br>![power on DDS](images/DDS/connect_power.jpg)
+4. The setup is now ready for use<br>![DDS setup](images/DDS/DDS_setup.jpg)
 
 ### Step 2: Prepare the tape
 
 1. Grab the disk you want to capture
-2. Slide the switch on the bottom of the tape to the left, bringing it in read-only state
-
+2. Slide the switch on the bottom of the tape to the left, bringing it in read-only state<br>
 ![DDS writable](images/DDS/DDS_writeable.jpg) ![DDS readonly](images/DDS/DDS_readonly.jpg)
-
 3. Insert the tape carefully in the drive
-
+   
 ![tape in drive](images/DDS/tape_in_drive.jpg)
 
 ### Step 3: Create an image
