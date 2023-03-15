@@ -25,15 +25,15 @@
 1. Use the built-in USB cable to connect the drive to the workstation
 2. Attach the power cable to the drive and plug the power cable into a power socket
 3. Use the switch on the back of the drive to power on the DDS drive
-: ![power on DDS](images/DDS/connect_power.jpg)
+![power on DDS](images/DDS/connect_power.jpg)
 4. The setup is now ready for use
-: ![DDS setup](images/DDS/DDS_setup.jpg)
+![DDS setup](images/DDS/DDS_setup.jpg)
 
 ### Step 2: Prepare the tape
 
 1. Grab the disk you want to capture
 2. Slide the switch on the bottom of the tape to the left, bringing it in read-only state
-![DDS writable](images/DDS/DDS_writeable.jpg) ![DDS readonly](images/DDS/DDS_writeable.jpg)
+![DDS writable](images/DDS/DDS_writeable.jpg) ![DDS readonly](images/DDS/DDS_readonly.jpg)
 3. Insert the tape carefully in the drive
 : ![tape in drive](images/DDS/tape_in_drive.jpg)
 
@@ -42,14 +42,14 @@
 > This step doesn't create a disk image as you're used for other media, like hard disks, floppies, jaz disks... Unlike those images, you won't be able to mount te images created of the tape. Tape drives provide sequential access, which means that the data on the disk is being accessed in a predertermined and ordered sequence. An image will be created of every single track/file on the tape. Usually, these files had been created by back-up software.
 
 1. Start Tapeimgr by clicking the shortcut on the Desktop. Tapeimgr is not included in Bitcurator, but is written for the Bitcurator environment. If Tapeimgr is not installed, [you should install it first](https://github.com/KBNLresearch/tapeimgr#installation). 
-2. Choose the directory for storing the images by cliking the _Select output directory_ button
-: ![stap 1](images/tapeimgr/stap-1-Tapeimgr-select-output.png)
-3. Add an identifier in the _identifier_ field. You can also add a description and some notes about the tape. These data will be stored in a seperate metadata file.
-: ![stap 2](images/tapeimgr/stap-2-start-capteren.png)
+2. Choose the directory for storing the images by cliking the *Select output directory* button
+![stap 1](images/tapeimgr/stap-1-Tapeimgr-select-output.png)
+3. Add an identifier in the *identifier* field. You can also add a description and some notes about the tape. These data will be stored in a seperate metadata file.
+![stap 2](images/tapeimgr/stap-2-start-capteren.png)
 4. Push start. You can follow the proces in the white field at the bottom. When Tapeimgr is finished, a pop-up appears and the tape is ejected from the drive.
-: ![stap 3](images/tapeimgr/stap-3-capteren-in-progress.png)
+![stap 3](images/tapeimgr/stap-3-capteren-in-progress.png)
 5. As a result, you've got the different files/tracks in `.dd`-format, a log, a file with checksums for the different files/tracks and a `metadata.json` file.
-: ![stap 4](images/tapeimgr/stap-4-result.png)
+![stap 4](images/tapeimgr/stap-4-result.png)
 
 ### Step 4: Analyse the files
 
