@@ -33,9 +33,12 @@
 
 1. Grab the disk you want to capture
 2. Slide the switch on the bottom of the tape to the left, bringing it in read-only state
+
 ![DDS writable](images/DDS/DDS_writeable.jpg) ![DDS readonly](images/DDS/DDS_readonly.jpg)
+
 3. Insert the tape carefully in the drive
-: ![tape in drive](images/DDS/tape_in_drive.jpg)
+
+![tape in drive](images/DDS/tape_in_drive.jpg)
 
 ### Step 3: Create an image
 
