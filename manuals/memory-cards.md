@@ -20,9 +20,9 @@
 |**Media**|Drives with USB 3.0 and older connectors|
 |**Interface**|[USB](https://www.wikidata.org/wiki/Q42378)|
 |**Connector**|USB 3.0|
-|**Cable**|[USB type B to USB type A](https://commons.wikimedia.org/wiki/Category:USB_cables?uselang=nl#/media/File:A-B_Usb_Cable.jpg) ![USB](images/USB-3.jpg)|
+|**Cable**|[USB type B to USB type A](https://commons.wikimedia.org/wiki/Category:USB_cables?uselang=nl#/media/File:A-B_Usb_Cable.jpg)|
 |**Workstation connection**|Can be connected directly with workstation (which has a USB type A female connection|
-|**Power**| DC input: 5-pin Mini-DIN connector ![connector](images/power-5-pin.jpg)|
+|**Power**| DC input: 5-pin Mini-DIN connector|
 |**Documentation**| |
 
 ### Workstation

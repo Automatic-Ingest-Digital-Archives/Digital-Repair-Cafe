@@ -98,8 +98,8 @@ You can skip this step if you know the [logical format](https://github.com/archi
   
 ![kryoflux busy](images/kryoflux/kryoflux_busy.png)
 ![kryoflux fail](images/kryoflux/kryoflux_geen_success.png)
-![kryoflux busy](images/kryoflux/kryoflux_success.png)
-![kryoflux busy](images/kryoflux/kryoflux_modified.png)
+![kryoflux success](images/kryoflux/kryoflux_success.png)
+![kryoflux modified](images/kryoflux/kryoflux_modified.png)
 
 ### Step 6: Eject the floppy
 

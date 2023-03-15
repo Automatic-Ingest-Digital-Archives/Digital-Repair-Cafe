@@ -45,7 +45,7 @@ A Linux computer, preferably running the [Bitcurator Environment](https://bitcur
 3. Plug the power cable into a power socket
 4. Press the power button on the write blocker
 
-### Step 2: Connect the SuperDisk drive to the write blocker
+### Step 2: Connect the BluRay Drive to the write blocker
 
 Connect the BluRay Drive to the write blocker using the USB cable (Device USB 3.0)
 
