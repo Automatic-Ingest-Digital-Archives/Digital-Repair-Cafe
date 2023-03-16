@@ -60,8 +60,6 @@ A Linux computer, preferably running the [Bitcurator Environment](https://bitcur
 
 ### Step 3: Create a disk image
 
-![jaz disk](images/jaz/jaz_disk.jpg)
-
 1. Insert the Jaz Disk in the Jaz Drive<br>![disk in drive](images/jaz/setup_with_disk.jpg)
 2. [Create a disk image using Guymager](guymager.md)
 
