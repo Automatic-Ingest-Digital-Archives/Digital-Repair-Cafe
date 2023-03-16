@@ -21,6 +21,7 @@ Included: setup and workflow
 * [hard disks](manuals/hard-drives.md)
 * [jaz disks](manuals/jaz-disks.md)
 * [magneto-optical (M.O.) discs](manuals/MO-disks.md)
+* [memory cards](manuals/memory-cards.md)
 * [optical discs](manuals/optical-disc.md) (only data - no audio cd's)
 * [SuperDisk disks](manuals/superdisk.md)
 * [travan tapes](manuals/travan.md) (only setup - workflow still in progress)
