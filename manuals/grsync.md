@@ -4,7 +4,7 @@ Grsync is a GUI alternative for `rsync`. Just like `rsync`, Grsync uses checksum
 
 ## Installation
 
-Install Grsync using following commands in the terminal:
+Grsync is included in the Bitcurator environment. You can also easily install it on Debian/Ubuntu computers by using following commands:
 
 ```bash
 sudo apt update

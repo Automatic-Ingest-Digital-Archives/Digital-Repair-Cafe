@@ -133,11 +133,8 @@ Decide if you want to create a disk image or just copy all the files. We recomme
 
 ### Step 3: Create a disk image or copy the files
 
-1. Plug one or more hard drives into the docking station. Make sure that the hard drive connectors match those of the docking station. 
-
-![setup hard drive and docking station](images/hard_drive_docking_station.jpg)
-
-1. Decide if you want to create a disk image or just copy all the files. We recommend creating a disk image.
+1. Plug one or more hard drives into the docking station. Make sure that the hard drive connectors match those of the docking station.<br>![setup hard drive and docking station](images/hard_drive_docking_station.jpg)
+2. Decide if you want to create a disk image or just copy all the files. We recommend creating a disk image.
    * [Create a disk image using Guymager](guymager.md)
    * [Copy all files safely using Grsync](grsync.md). If you're familiar with the command line and `rsync`, you can also use `rsync`. Use the archive function via `rsync -a`
 

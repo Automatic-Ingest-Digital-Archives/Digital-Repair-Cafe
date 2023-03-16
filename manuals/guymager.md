@@ -4,7 +4,7 @@ Guymager is open source forensic software used for creating disk images of all k
 
 ## Installation
 
-Guymager is included in the Bitcurator environment. You can also easily install it on Ubuntu computers by using following commands:
+Guymager is included in the Bitcurator environment. You can also easily install it on Debian/Ubuntu computers by using following commands:
 
 ```bash
 sudo apt update

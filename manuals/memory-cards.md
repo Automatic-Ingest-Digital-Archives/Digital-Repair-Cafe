@@ -35,3 +35,26 @@ A Linux computer, preferably running the [Bitcurator Environment](https://bitcur
 
 ## Workflow
 
+### Step 1: Connect the write blocker to the workstation
+
+1. Connect the write blocker to the workstation using the blue USB 3.0 cable
+2. Connect the DC power supply to the write blocker and plug the power cable into a  socket
+3. Press the power button on the write blocker
+
+### Step 2: Connect the Card Reader to the write blocker
+
+Connect the Card Reader to the write blocker using the USB cable
+
+### Step 3: Prepare the memory card (only SD cards)
+
+SD cards (SD/SDHC/SDXC) have a slider to put the card in read-onlys state. Slide it down and the SD card is in read-only state.
+
+### Step 4: Create a disk image
+
+1. Insert the memory card into the correct slot
+2. [Create a disk image using Guymager](guymager.md)
+
+### Step 5: remove the memory card
+
+1. Pull the memory card out of the slot
+2. When you're finished, remove the Card Reader from the write blocker.
