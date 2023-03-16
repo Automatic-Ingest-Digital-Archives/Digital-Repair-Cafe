@@ -2,10 +2,9 @@
 
 ### Card reader
 
-|**Model**|Aluminium alloy 6 in 1 3.0 Super speed Card Reader|
+|**Model**|Aluminium alloy 6 in 1 3.0 Super speed Card Reader ![reader](images/memory-cards/card_reader.jpg)|
 |:--|:--|
-|**Media**|Different flavours of [Sony Memory Stick](https://www.wikidata.org/wiki/Q733906)<br>Sony Memory Stick Micro (M2)<br>[SD cards](https://www.wikidata.org/wiki/Q466977), also [SDHC](https://www.wikidata.org/wiki/Q877443) and [SDXC](https://www.wikidata.org/wiki/Q17239567)<br>[Micro SD](https://www.wikidata.org/wiki/Q482531)<br>
-[Compact Flash (CF)](https://www.wikidata.org/wiki/Q678615)|
+|**Media**|Different flavours of [Sony Memory Stick](https://www.wikidata.org/wiki/Q733906)<br>Sony Memory Stick Micro (M2)<br>[SD cards](https://www.wikidata.org/wiki/Q466977), also [SDHC](https://www.wikidata.org/wiki/Q877443) and [SDXC](https://www.wikidata.org/wiki/Q17239567)<br>[Micro SD](https://www.wikidata.org/wiki/Q482531)<br>[Compact Flash (CF)](https://www.wikidata.org/wiki/Q678615)|
 |**Interface**|[USB](https://www.wikidata.org/wiki/Q42378)|
 |**Connector**|USB 3.0|
 |**Cable**|Micro USB 3.0 to USB 3.0 type A|
@@ -45,13 +44,17 @@ A Linux computer, preferably running the [Bitcurator Environment](https://bitcur
 
 Connect the Card Reader to the write blocker using the USB cable
 
+![setup](images/memory-cards/workflow_cards.jpg)
+
 ### Step 3: Prepare the memory card (only SD cards)
 
 SD cards (SD/SDHC/SDXC) have a slider to put the card in read-onlys state. Slide it down and the SD card is in read-only state.
 
+![card in read-only state](images/memory-cards/SDXC-card-front.jpg)
+
 ### Step 4: Create a disk image
 
-1. Insert the memory card into the correct slot
+1. Insert the memory card into the correct slot<br>![card in reader](images/memory-cards/card_in_reader.jpg)
 2. [Create a disk image using Guymager](guymager.md)
 
 ### Step 5: remove the memory card

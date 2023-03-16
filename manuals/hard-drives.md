@@ -12,7 +12,7 @@ There are two possible setups: one where only using a write blocker/bride, one w
 
 #### Write blocker
 
-|**Model**|[Tableau Forensic USB 3.0 Bridge T8U](https://web.archive.org/web/20180409191526/https://www.guidancesoftware.com/tableau/hardware//t8u) |
+|**Model**|[Tableau Forensic SATA/IDE Bridge T35u](https://web.archive.org/web/20221221063559/https://security.opentext.com/tableau/hardware/details/t35u) |
 |:--|:--|
 |**Media**|Drives with SATA or IDE interface|
 |**Interface**|[SATA](https://www.wikidata.org/wiki/Q188639)<br>[IDE](https://www.wikidata.org/wiki/Q230360)|
@@ -20,6 +20,7 @@ There are two possible setups: one where only using a write blocker/bride, one w
 |**Cable**|[USB type B to USB type A](https://commons.wikimedia.org/wiki/Category:USB_cables?uselang=nl#/media/File:A-B_Usb_Cable.jpg)|
 |**Workstation connection**|Can be connected directly with workstation (which has a USB type A female connection|
 |**Power**| DC input: 5-pin Mini-DIN connector|
+|**documentation**| [user guide](https://web.archive.org/web/20230316153702/https://manuals.plus/opentext/tableau-forensic-t35ut35u-rw-sataide-bridge-manual) |
 
 ### Setup #2 - docking station
 

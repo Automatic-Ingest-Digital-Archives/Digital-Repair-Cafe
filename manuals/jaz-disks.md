@@ -4,7 +4,7 @@
 
 ### Jaz drive
 
-| **Model** | [Iomega 2GB Jaz drive](https://web.archive.org/web/20210425034320/https://miap.hosting.nyu.edu/program/student_work/2005fall/05f_1805_felixdidier_a2_y.pdf) |
+| **Model** | [Iomega 2GB Jaz drive](https://web.archive.org/web/20210425034320/https://miap.hosting.nyu.edu/program/student_work/2005fall/05f_1805_felixdidier_a2_y.pdf)<br>![jaz drive 2 GB](images/jaz/jaz_drive_2GB.jpg) |
 |:--|:--|
 | **Media** | Jaz 2 GB<br>Jaz 1 GB |
 | **Interface** | [SCSI](https://www.wikidata.org/wiki/Q220868) |
@@ -14,7 +14,7 @@
 | **Power** | DIN connector  |
 | **Documentation** |  |
 
-| **Model** | Iomega 1GB Jaz drive |
+| **Model** | Iomega 1GB Jaz drive<br>![jaz 1GB](images/jaz/jaz_drive_1GB.jpg) |
 |:--|:--|
 | **Media** | Jaz 1 GB |
 | **Interface** | [SCSI](https://www.wikidata.org/wiki/Q220868) |
@@ -55,12 +55,14 @@ A Linux computer, preferably running the [Bitcurator Environment](https://bitcur
 
 ### Step 2: Connect the Jaz Drive to the write blocker
 
-1. Connect the Jaz Drive to the write blocker using the USB cable.
-2. Connect the power cable to the drive and plug the power cable into a power socket.
+1. Connect the Jaz Drive to the write blocker using the SCSI/USB cable.<br>![jaz drive connected](images/jaz/cable_to_drive.jpg)
+2. Connect the power cable to the drive and plug the power cable into a power socket.<br>![jaz setup](images/jaz/setup_jaz.jpg)
 
 ### Step 3: Create a disk image
 
-1. Insert the Jaz Disk in the Jaz Drive
+![jaz disk](images/jaz/jaz_disk.jpg)
+
+1. Insert the Jaz Disk in the Jaz Drive<br>![disk in drive](images/jaz/setup_with_disk.jpg)
 2. [Create a disk image using Guymager](guymager.md)
 
 ### Step 4: Eject the disk
