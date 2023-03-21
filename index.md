@@ -2,7 +2,7 @@ Digital Repair Cafe was a project and now a service of [Amsab-ISG](https://www.a
 
 Obsolete media are all the media containing digital data that still work technically, but which can no longer be read by modern computers. Examples include 5.25-inch floppy disks, Zip disks, magneto-optical disks and various tape formats.
 
-[Contact Maarten Savels (Amsab-ISG)](mailto:maarten.savels@amsab.be?subject=Digital%20Repair%20Cafe) for more information about the project. Contact [Nastasia Vanderperren (meemoo)](mailto:nastasia.vanderperren@meemoo.be?subject=Digital%20Repair%20Cafe) and Lode Scheers for information about the workflows and manuals.
+[Contact Maarten Savels (Amsab-ISG)](mailto:maarten.savels@amsab.be?subject=Digital%20Repair%20Cafe) for more information about the project. Contact [meemoo](mailto:info@meemoo.be?subject=Digital%20Repair%20Cafe) for information about the workflows and manuals.
 
 ## Manuals
 

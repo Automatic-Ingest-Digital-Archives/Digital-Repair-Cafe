@@ -4,7 +4,7 @@
 
 ### DDS drive
 
-|**Model**|[HP StorageWorks DAT 72 USB](https://www.cnet.com/products/hp-storageworks-dat-72-usb-external-tape-drive-tape-drive-dat-usb/)|
+|**Model**|[HP StorageWorks DAT 72 USB](https://www.cnet.com/products/hp-storageworks-dat-72-usb-external-tape-drive-tape-drive-dat-usb/)<br>![DDS drive](images/DDS/DDS_drive.jpg)|
 |:--|:--|
 |**Media**|DDS-3 tapes<br>DDS-4 tapes<br>DAT 72 or DDS-5 tapes<br>([Wikipedia](https://en.wikipedia.org/wiki/Digital_Data_Storage))|
 |**Interface**|[USB](https://www.wikidata.org/wiki/Q42378)|

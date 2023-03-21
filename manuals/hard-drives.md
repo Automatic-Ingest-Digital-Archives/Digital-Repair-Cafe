@@ -96,14 +96,14 @@ We discourage the use of this workflow if you're working on Mac formatted hard d
     - Use the SATA cable when you've got a SATA hard disk
 2. Connect the hard disk to the write blocker
 
-![setup hard drive and write blocker](images/hard_drive_writeblocker.jpg)
-
 #### Step 2: Connect the write blocker to the workstation
 
 1. Connect the write blocker to the workstation using the blue USB 3.0 cable
 2. Connect the DC power supply to the write blocker
 3. Plug the power cable into a power socket
 4. Press the power button on the write blocker
+
+![setup hard drive and write blocker](images/hard_drive_writeblocker.jpg)
 
 #### Step 3: Create a disk image or copy the files
 

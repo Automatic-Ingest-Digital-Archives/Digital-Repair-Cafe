@@ -6,27 +6,27 @@ For 3,5 inch HD Floppy disks, [follow the workflow with the USB floppy disk driv
 
 ### Floppy Disk Drive
 
-| **Model**                  | Sony MPF920-E                                                                                           |
-| :------------------------- | :------------------------------------------------------------------------------------------------------ |
-| **Media**                  | 3,5 inch floppy disks (SD, DD, HD)                                                                      |
-| **Interface**              | [IDC](https://www.wikidata.org/wiki/Q374830)                                                            |
-| **Connector**              | Floppy                                                                                                  |
-| **Cable**                  | 3,5 inch [Floppy Data Cable](https://www.computerhope.com/jargon/f/flopcabl.htm)                        |
-| **Workstation connection** | via [Floppy Disk Controller](https://www.wikidata.org/wiki/Q741867)                                     |
-| **Power**                  | Power Supply unit and [Berg connector](https://www.wikidata.org/wiki/Q16951277)                         |
-| **Documentation**          | [manual](http://www.vintagecomputer.net/fjkraan/comp/divcomp/doc/YE_Data_YD-380_5.25inchHHHDFloppy.pdf) |
+| **Model** | Sony MPF920-E |
+|:--|:--|
+| **Media** | 3,5 inch floppy disks (SD, DD, HD)|
+| **Interface** | [IDC](https://www.wikidata.org/wiki/Q374830) |
+| **Connector** | Floppy |
+| **Cable** | 3,5 inch [Floppy Data Cable](https://www.computerhope.com/jargon/f/flopcabl.htm) |
+| **Workstation connection** | via [Floppy Disk Controller](https://www.wikidata.org/wiki/Q741867) |
+| **Power** | Power Supply unit and [Berg connector](https://www.wikidata.org/wiki/Q16951277) |
+| **Documentation** | [manual](http://www.vintagecomputer.net/fjkraan/comp/divcomp/doc/YE_Data_YD-380_5.25inchHHHDFloppy.pdf)|
 
 ### Floppy Disk Controller
 
-| **Model**                  | Kryoflux Personal Edition Premium                                                                          |
-| :------------------------- | :--------------------------------------------------------------------------------------------------------- |
-| **Media**                  | Drives with floppy data cable                                                                              |
-| **Interface**              | [USB](https://www.wikidata.org/wiki/Q42378)                                                                |
-| **Connector**              | USB 2.0                                                                                                    |
-| **Cable**                  | [Floppy Data Cable](https://www.computerhope.com/jargon/f/flopcabl.htm)                                    |
-| **Workstation connection** | via [Floppy Disk Controller](https://www.wikidata.org/wiki/Q741867)                                        |
-| **Power**                  | n/a (via USB interface)                                                                                    |
-| **Documentation**          | [Archivist's Guide to Kryoflux](https://github.com/archivistsguidetokryoflux/archivists-guide-to-kryoflux) |
+| **Model** | Kryoflux Personal Edition Premium<br>![kryoflux](images/kryoflux/Kryoflux_board_clean.JPG) |
+|:--|:--|
+| **Media** | Drives with floppy data cable |
+| **Interface** | [USB](https://www.wikidata.org/wiki/Q42378) |
+| **Connector** | USB 2.0 |
+| **Cable** | [Floppy Data Cable](https://www.computerhope.com/jargon/f/flopcabl.htm) |
+| **Workstation connection** | via [Floppy Disk Controller](https://www.wikidata.org/wiki/Q741867) |
+| **Power** | n/a (via USB interface) |
+| **Documentation** | [Archivist's Guide to Kryoflux](https://github.com/archivistsguidetokryoflux/archivists-guide-to-kryoflux) |
 
 ## Software
 
@@ -96,10 +96,10 @@ You can skip this step if you know the [logical format](https://github.com/archi
    - **Red:** The track was not imaged succesfully
    - **Grey:** the KryoFlux software could not determine the status of this track. This may or may not mean a successful read. It could indicate that this track was unformatted or that the wrong format was selected in step 1.
   
-![kryoflux busy](images/kryoflux/kryoflux_busy.png)
-![kryoflux fail](images/kryoflux/kryoflux_geen_success.png)
-![kryoflux success](images/kryoflux/kryoflux_success.png)
-![kryoflux modified](images/kryoflux/kryoflux_modified.png)
+   ![kryoflux busy](images/kryoflux/kryoflux_busy.png)
+   ![kryoflux fail](images/kryoflux/kryoflux_geen_success.png)
+   ![kryoflux success](images/kryoflux/kryoflux_success.png)
+   ![kryoflux modified](images/kryoflux/kryoflux_modified.png)
 
 ### Step 6: Eject the floppy
 

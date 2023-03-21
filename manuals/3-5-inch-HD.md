@@ -31,9 +31,9 @@
 |**Media**|Drives with USB 3.0 and older connectors|
 |**Interface**|[USB](https://www.wikidata.org/wiki/Q42378)|
 |**Connector**|USB 3.0|
-|**Cable**|[USB type B to USB type A](https://commons.wikimedia.org/wiki/Category:USB_cables?uselang=nl#/media/File:A-B_Usb_Cable.jpg) ![USB](images/USB-3.jpg)|
+|**Cable**|[USB type B to USB type A](https://commons.wikimedia.org/wiki/Category:USB_cables?uselang=nl#/media/File:A-B_Usb_Cable.jpg) |
 |**Workstation connection**|Can be connected directly with workstation (which has a USB type A female connection|
-|**Power**| DC input: 5-pin Mini-DIN connector ![connector](images/power-5-pin.jpg)|
+|**Power**| DC input: 5-pin Mini-DIN connector |
 |**Documentation**| [user guide](https://web.archive.org/web/20230308061552/https://manuals.plus/opentext/t8u-tableau-forensic-usb-bridge-manual)|
 
 ### Workstation
@@ -55,15 +55,14 @@ A Linux computer, preferably running the [Bitcurator Environment](https://bitcur
 
 ### Step 2: Connect the Floppy USB Drive to the write blocker
 
-1. Connect the Floppy USB Drive to the write blocker using the USB cable (Device USB 3.0)
+Connect the Floppy USB Drive to the write blocker using the USB cable (Device USB 3.0)
 
 ![setup floppy 3.5 inch HD](images/floppy/setup_HD_floppy.JPG)
 
 ### Step 3: Prepare the floppy
 
 1. Grab the floppy of which you want to capture the content
-2. Slide the switch on the disk bringing it in read-only state. Look for a tiny black sliding tab in a square hole in the disks lower left corner. Slide the tab with a pencil or your thubmnail so that the hole is uncoverd.
-   ![write protection sliding tab](images/floppy/floppy_anatomy.jpg)
+2. Slide the switch on the disk bringing it in read-only state. Look for a tiny black sliding tab in a square hole in the disk's lower left corner. Slide the tab with a pencil or your thubmnail so that the hole is uncovered.<br>![write protection sliding tab](images/floppy/floppy_anatomy.jpg)
 
 ### Step 4: Create a disk image
 
@@ -76,4 +75,3 @@ A Linux computer, preferably running the [Bitcurator Environment](https://bitcur
 2. Right click on the device in the left navigation sidebar
 3. Select eject
 4. Press on the button of the Floppy USB Drive to eject the disk
-5. Go back to step 3 using a new floppy

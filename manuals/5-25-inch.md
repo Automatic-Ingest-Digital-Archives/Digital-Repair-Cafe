@@ -4,35 +4,35 @@
 
 ### Floppy Disk Drive
 
-| **Model**                  | YE Data YD-380B                                                                                         |
-| :------------------------- | :------------------------------------------------------------------------------------------------------ |
-| **Media**                  | 5,25 inch floppy disks                                                                                  |
-| **Interface**              | [IDC](https://www.wikidata.org/wiki/Q374830)                                                            |
-| **Connector**              | Floppy                                                                                                  |
-| **Cable**                  | [Floppy Data Cable](https://www.computerhope.com/jargon/f/flopcabl.htm)                                 |
-| **Workstation connection** | via [Floppy Disk Controller](https://www.wikidata.org/wiki/Q741867)                                     |
-| **Power**                  | Power Supply unit and Molex-Y cable                                                                     |
-| **Documentation**          | [manual](http://www.vintagecomputer.net/fjkraan/comp/divcomp/doc/YE_Data_YD-380_5.25inchHHHDFloppy.pdf) |
+| **Model** | YE Data YD-380B |
+|:--|:--|
+| **Media** | 5,25 inch floppy disks |
+| **Interface** | [IDC](https://www.wikidata.org/wiki/Q374830) |
+| **Connector** | Floppy |
+| **Cable** | [Floppy Data Cable](https://www.computerhope.com/jargon/f/flopcabl.htm) |
+| **Workstation connection** | via [Floppy Disk Controller](https://www.wikidata.org/wiki/Q741867) |
+| **Power** | Power Supply unit and Molex-Y cable |
+| **Documentation** | [manual](http://www.vintagecomputer.net/fjkraan/comp/divcomp/doc/YE_Data_YD-380_5.25inchHHHDFloppy.pdf) |
 
-| **Model**                  | IBM YD-380                                                                                              |
-| :------------------------- | :------------------------------------------------------------------------------------------------------ |
-| **Media**                  | 5,25 inch floppy disks                                                                                  |
-| **Interface**              | [IDC](https://www.wikidata.org/wiki/Q374830)                                                            |
-| **Connector**              | Floppy                                                                                                  |
-| **Cable**                  | [Floppy Data Cable](https://www.computerhope.com/jargon/f/flopcabl.htm)                                 |
-| **Workstation connection** | via [Floppy Drive Controller](https://www.wikidata.org/wiki/Q741867)                                    |
-| **Power**                  | Power Supply unit and Molex-Y cable                                                                     |
-| **Documentation**          | [manual](http://www.vintagecomputer.net/fjkraan/comp/divcomp/doc/YE_Data_YD-380_5.25inchHHHDFloppy.pdf) |
+| **Model**  | IBM YD-380 |
+|:--|:--|
+| **Media** | 5,25 inch floppy disks |
+| **Interface** | [IDC](https://www.wikidata.org/wiki/Q374830) |
+| **Connector** | Floppy |
+| **Cable** | [Floppy Data Cable](https://www.computerhope.com/jargon/f/flopcabl.htm) |
+| **Workstation connection** | via [Floppy Drive Controller](https://www.wikidata.org/wiki/Q741867) |
+| **Power** | Power Supply unit and Molex-Y cable |
+| **Documentation** | [manual](http://www.vintagecomputer.net/fjkraan/comp/divcomp/doc/YE_Data_YD-380_5.25inchHHHDFloppy.pdf) |
 
 ### Floppy Drive Controller
 
-| **Model**         | Kryoflux Personal Edition Premium                                                                          |
-| :---------------- | :--------------------------------------------------------------------------------------------------------- |
-| **Media**         | Drives with floppy data cable                                                                              |
-| **Interface**     | [USB](https://www.wikidata.org/wiki/Q42378)                                                                |
-| **Connector**     | USB 2.0                                                                                                    |
-| **Cable**         | USB type A ![USB](images/USB-A.jpg)                                                                        |
-| **Power**         | n/a (via USB interface)                                                                                    |
+| **Model** | Kryoflux Personal Edition Premium<br>[kryoflux](images/kryoflux/Kryoflux_board_clean.JPG)|
+|:--|:--|
+| **Media** | Drives with floppy data cable |
+| **Interface** | [USB](https://www.wikidata.org/wiki/Q42378) |
+| **Connector** | USB 2.0 |
+| **Cable** | USB type A ![USB](images/USB-A.jpg) |
+| **Power** | n/a (via USB interface) |
 | **Documentation** | [Archivist's Guide to Kryoflux](https://github.com/archivistsguidetokryoflux/archivists-guide-to-kryoflux) |
 
 ## Software
@@ -63,9 +63,8 @@
 2. Choose _Drive_ in the menu and _Calibrate_ the drive
      ![calibrate kryoflux](images/kryoflux/kryoflux_calibrate.png)
 3. Choose the output directory for the disk images and log files in the KryoFlux Software. Select _File_ > _Settings_ and click on the _Output_ tab. Next to _Image Path_, browse to the appropiate path and ensure that the _Logs_ check is checked. Then click _OK_
-
-![kryoflux settings](images/kryoflux/kryoflux_settings.png)
-![kryoflux settings output folder](images/kryoflux/kroyflux_settings_output.png)
+   ![kryoflux settings](images/kryoflux/kryoflux_settings.png)
+   ![kryoflux settings output folder](images/kryoflux/kroyflux_settings_output.png)
 
 ### Step 3: Prepare the floppy disk
 
@@ -103,10 +102,10 @@ You can skip this step if you know the [logical format](https://github.com/archi
    - **Red:** The track was not imaged succesfully
    - **Grey:** the KryoFlux software could not determine the status of this track. This may or may not mean a successful read. It could indicate that this track was unformatted or that the wrong format was selected in step 1.
 
-![kryoflux busy](images/kryoflux/kryoflux_busy.png)
-![kryoflux fail](images/kryoflux/kryoflux_geen_success.png)
-![kryoflux busy](images/kryoflux/kryoflux_success.png)
-![kryoflux busy](images/kryoflux/kryoflux_modified.png)
+   ![kryoflux busy](images/kryoflux/kryoflux_busy.png)
+   ![kryoflux fail](images/kryoflux/kryoflux_geen_success.png)
+   ![kryoflux busy](images/kryoflux/kryoflux_success.png)
+   ![kryoflux busy](images/kryoflux/kryoflux_modified.png)
 
 ### Step 6: Eject the floppy
 
