@@ -10,10 +10,11 @@ create_folder () {
 
 read_fat_images () {
     images="$1"
-    for file in "$images/*.sh"
+    for file in $images/*.000
     do
         create_folder $file
         filename=${file%.*}
+        echo "exporting files of $filename"
         mdir -/ -a -i $file > "$filename"_index.txt
         mcopy -psmi $file ::* "$filename"
     done
@@ -21,13 +22,14 @@ read_fat_images () {
 
 read_hfs_images () {
     images="$1"
-    for file in "$images/*.sh"
+    for file in $images/*.000
     do
         create_folder $file
         hmount $file
         filename=${file%.*}
+        echo "exporting files of $filename"
         hls -ialR > "$filename"_index.txt
-        hcopy -m :* "$filename/"
+        hcopy -m :* $filename/
     done
 }
 
