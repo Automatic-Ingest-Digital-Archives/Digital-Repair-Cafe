@@ -101,7 +101,7 @@ You can skip this step if you know the [logical format](https://github.com/archi
   
    ![kryoflux busy](images/kryoflux/kryoflux_busy.png)<br>Kroflux is creating a disk image of a floppy. A correct logical format was chosen.<br><br>
    ![kryoflux fail](images/kryoflux/kryoflux_geen_success.png)<br>A wrong logical format was chosen.<br><br>
-   ![kryoflux succes](images/kryoflux/kryoflux_success.png)<br>A correct logical format was chosen. The first 16 tracks contain errors.<br><br>
+   ![kryoflux succes](images/kryoflux/kryoflux_success.png)<br>A correct logical format was chosen. The first 16 tracks on both sides contain errors.<br><br>
    ![kryoflux modified](images/kryoflux/kryoflux_modified.png)<br>A correct logical format was chosen. Most of the tracks are modified.
 
 ### Step 6: Eject the floppy
@@ -125,5 +125,5 @@ When the imaging is finished, eject the floppy disk by pressing the small button
 
 ### Kryoflux won't capture content from the floppy disk
 
-1. The floppy data cable is connected wrongly with the floppy drive. Go back to step 1 _Connect the internal floppy drive to workstation_
+1. The floppy data cable is connected wrongly with the floppy drive. Go back to [Step 1: Connect the internal floppy drive to workstation](#step-1-connect-the-internal-floppy-drive-to-workstation)
 2. There is a problem with the floppy drive. Try capturing with a different drive.

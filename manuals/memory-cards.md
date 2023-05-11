@@ -48,7 +48,7 @@ Connect the Card Reader to the write blocker using the USB cable (side: Device U
 
 ### Step 3: Prepare the memory card (only SD cards)
 
-SD cards (SD/SDHC/SDXC) have a slider to put the card in read-onlys state. Slide it down to put it in read-only state.
+SD cards (SD/SDHC/SDXC) have a slider to put the card in read-only state. Slide it down. The card is now read-only.
 
 ![card in read-only state](images/memory-cards/SDXC-card-front.jpg)
 

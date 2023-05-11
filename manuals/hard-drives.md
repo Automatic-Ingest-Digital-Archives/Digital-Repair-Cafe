@@ -1,12 +1,12 @@
 # Hard disks
 
-This manual and setup is meant for hard drives with a IDE and SATA interface. It can also be used for external hard drives, but then you need to remove the enclosure of the hard disk. The IDE or SATA interface is much faster then the USB. 
+This manual and setup is meant for hard drives with a IDE and SATA interface. It can also be used for USB external hard drives, but then the enclosure of the hard disk should be removed. The IDE or SATA interface is much faster then USB. 
 
 This setup can't be used for M2.SATA disks.
 
 ## Hardware
 
-There are two possible setups: only using a write blocker/bride or using a docking station and a write blocker
+There are two possible setups: only using a write blocker/bridge or using a docking station and a write blocker.
 
 ### Setup #1 - only using a write blocker/bridge
 
@@ -18,7 +18,7 @@ There are two possible setups: only using a write blocker/bride or using a docki
 |**Interface**|[SATA](https://www.wikidata.org/wiki/Q188639)<br>[IDE](https://www.wikidata.org/wiki/Q230360)|
 |**Connector**|USB 3.0|
 |**Cable**|[USB type B to USB type A](https://commons.wikimedia.org/wiki/Category:USB_cables?uselang=nl#/media/File:A-B_Usb_Cable.jpg)|
-|**Workstation connection**|Can be connected directly with workstation (which has a USB type A female connection)|
+|**Workstation connection**|Can be connected directly with the workstation (which has a USB type A female connection)|
 |**Power**| DC input: 5-pin Mini-DIN connector|
 |**documentation**| [user guide](https://web.archive.org/web/20230316153702/https://manuals.plus/opentext/tableau-forensic-t35ut35u-rw-sataide-bridge-manual) |
 

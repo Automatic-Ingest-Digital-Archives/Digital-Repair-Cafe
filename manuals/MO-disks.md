@@ -59,7 +59,7 @@ Connect the M.O Drive to the write blocker using the USB cable
 
 ### Step 5: Eject the disc
 
-1. Press on the button of the M.O. Drive to eject the disc
+1. Press the button on the M.O. Drive to eject the disc
 2. If that doesn't work:
    1. Go to the workstation and open a file explorer window 
    2. Right click on the device in the left navigation sidebar
@@ -68,4 +68,4 @@ Connect the M.O Drive to the write blocker using the USB cable
 3. If that doesn't work either:
    1. Power off the write blocker
    2. Power on the write blocker
-   3. Immediately press on the button of the M.O. drive to eject the M.O. disc.
+   3. Immediately press the button on the M.O. drive to eject the disc.

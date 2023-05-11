@@ -43,15 +43,15 @@ A computer running the [Bitcurator Environment](https://bitcurator.net/) (We use
 3. Plug the power cable into a power socket
 4. Press the power button on the write blocker
 
-### Step 2: Connect the Zip Drive to the write blocker
+### Step 2: Connect the zip drive to the write blocker
 
-1. Connect the Zip Drive to the write blocker (device side) using the USB cable
-2. Connect the DC power supply to the Zip Drive
+1. Connect the zip drive to the write blocker (device side) using the USB cable
+2. Connect the DC power supply to the zip drive
 3. Plug the power cable into a power socket
 
 ### Step 3: Create a disk image
 
-1. Insert a Zip Diks in the Zip Drive
+1. Insert a zip disk in the Zip drive
 2. [Create a disk image using Guymager](guymager.md)
 
 ### Step 4: Eject the disk
@@ -61,8 +61,8 @@ A computer running the [Bitcurator Environment](https://bitcurator.net/) (We use
    1. Go to the workstation and open a file explorer window 
    2. Right click on the device in the left navigation sidebar
    3. Select eject
-   4. Press again on the button of the floppy drive
+   4. Press again on the button of the zip drive
 3. If that doesn't work either:
    1. Power off the write blocker
    2. Power on the write blocker
-   3. Immediately press on the button of the floppy drive to eject the floppy disk
+   3. Immediately press the button on the zip drive to eject the zip disk

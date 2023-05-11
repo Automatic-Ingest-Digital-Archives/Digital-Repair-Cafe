@@ -73,9 +73,9 @@
 1. Take a floppy disk carefully.
 2. Cover the right notch on the floppy disk with tape or a label to disable writing on the floppy disk<br>
    ![right notch floppy disk](images/floppy/5-25-floppy-blocker.png)
-3. Insert the floppy into the drive (Read/Write window towards the drive and the side of the label facing upwards)<br>
+3. Insert the floppy into the drive (Read/Write window (see pic below) towards the drive and the side of the label facing upwards)<br>
    ![5.25 inch floppy anatomy](images/floppy/5_25_anatomy.png)
-4. Turn the handle down. When turning the handle down, the drive starts spinning. This stops when the handle is fully down.
+4. Turn the handle down of the drive. When turning the handle down, the drive starts spinning. This stops when the handle is fully down.
 
 ### Step 4: Capture raw content of the floppy disk (optional)
 
@@ -107,7 +107,7 @@ You can skip this step if you know the [logical format](https://github.com/archi
 
    ![kryoflux busy](images/kryoflux/kryoflux_busy.png)<br>Kroflux is creating a disk image of a floppy. A correct logical format was chosen.<br><br>
    ![kryoflux fail](images/kryoflux/kryoflux_geen_success.png)<br>A wrong logical format was chosen.<br><br>
-   ![kryoflux succes](images/kryoflux/kryoflux_success.png)<br>A correct logical format was chosen. The first 16 tracks contain errors.<br><br>
+   ![kryoflux succes](images/kryoflux/kryoflux_success.png)<br>A correct logical format was chosen. The first 16 tracks on both sides contain errors.<br><br>
    ![kryoflux modified](images/kryoflux/kryoflux_modified.png)<br>A correct logical format was chosen. Most of the tracks are modified.
 
 ### Step 6: Eject the floppy disk
