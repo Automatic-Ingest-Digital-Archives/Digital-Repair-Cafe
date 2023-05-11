@@ -131,5 +131,5 @@ When the imaging is finished, eject the floppy disk from the drive.
 
 ### Kryoflux won't capture content from the floppy disk
 
-1. The floppy data cable is connected wrongly with the floppy drive. Go back to step 1 _Connect the internal floppy drive to workstation_.
+1. The floppy data cable is connected wrongly with the floppy drive. Go back to [Step 1: Connect the internal floppy drive to workstation](#step-1-connect-the-internal-floppy-drive-to-workstation).
 2. There is a problem with the floppy drive. Try a different drive.
