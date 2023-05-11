@@ -33,15 +33,15 @@ A Linux computer, preferably running the [Bitcurator Environment](https://bitcur
 
 ### Step 2: Prepare the tape
 
-1. Grab the disk you want to capture
-2. Slide the switch on the bottom of the tape to the left, bringing it in read-only state<br>
+1. Take a tape.
+2. Slide the switch on the bottom of the tape to the left, bringing it in read-only state. You should now see a small hole.<br>
 ![DDS writable](images/DDS/DDS_writeable.jpg) ![DDS readonly](images/DDS/DDS_readonly.jpg)
 3. Insert the tape carefully in the drive<br>
    ![tape in drive](images/DDS/tape_in_drive.jpg)
 
 ### Step 3: Create an image
 
-> This step doesn't create a disk image as you're used for other media, like hard disks, floppies, jaz disks... Unlike those images, you won't be able to mount te images created of the tape. Tape drives provide sequential access, which means that the data on the disk is being accessed in a predertermined and ordered sequence. An image will be created of every single track/file on the tape. Usually, these files had been created by back-up software.
+> This step doesn't create a disk image as you're used for other media, like hard disks, floppy disks, jaz disks... Unlike those images, you won't be able to mount te images created of the tape. Tape drives provide sequential access, which means that the data on the disk is being accessed in a predertermined and ordered sequence. An image will be created of every single track/file on the tape. Usually, these files had been created by back-up software.
 
 1. Start Tapeimgr by clicking the shortcut on the Desktop. Tapeimgr is not included in Bitcurator, but is written for the Bitcurator environment. If Tapeimgr is not installed, [you should install it first](https://github.com/KBNLresearch/tapeimgr#installation). 
 2. Choose the directory for storing the images by cliking the *Select output directory* button.<br>![stap 1](images/tapeimgr/stap-1-Tapeimgr-select-output.png)
@@ -53,7 +53,7 @@ A Linux computer, preferably running the [Bitcurator Environment](https://bitcur
 
 To be able to extract the individual files from the tracks/back-up files, you must know the file format of the back-up files. You can use [Siegfried](https://www.itforarchivists.com/siegfried) or [DROID](https://www.nationalarchives.gov.uk/information-management/manage-information/preserving-digital-records/droid/) for this task. 
 
-In the screenshot below, you can see that the `file0000001.dd` file has the Tape Archive Format (`.tar`). The files can be extracted with the `tar -xvf [file]` or `tar -xcvf [file]` command.
+In the screenshot below, you can see that the `file0000001.dd` file has the Tape Archive Format (`.tar`). TAR-files can be extracted with the `tar -xvf [file]` or `tar -xcvf [file]` command.
 
 ![siegfried](images/screenshot_siegfried.png)
 

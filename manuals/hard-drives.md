@@ -1,12 +1,12 @@
 # Hard disks
 
-This manual and setup is meant for hard drives having a IDE and SATA interface. It can also be used for external hard drives, but then you need to remove the enclosure of the hard disk. The IDE or SATA interface is much faster then the USB one. 
+This manual and setup is meant for hard drives with a IDE and SATA interface. It can also be used for external hard drives, but then you need to remove the enclosure of the hard disk. The IDE or SATA interface is much faster then the USB. 
 
 This setup can't be used for M2.SATA disks.
 
 ## Hardware
 
-There are two possible setups: one where only using a write blocker/bride, one where you'll use a docking station and a write blocker
+There are two possible setups: only using a write blocker/bride or using a docking station and a write blocker
 
 ### Setup #1 - only using a write blocker/bridge
 
@@ -18,7 +18,7 @@ There are two possible setups: one where only using a write blocker/bride, one w
 |**Interface**|[SATA](https://www.wikidata.org/wiki/Q188639)<br>[IDE](https://www.wikidata.org/wiki/Q230360)|
 |**Connector**|USB 3.0|
 |**Cable**|[USB type B to USB type A](https://commons.wikimedia.org/wiki/Category:USB_cables?uselang=nl#/media/File:A-B_Usb_Cable.jpg)|
-|**Workstation connection**|Can be connected directly with workstation (which has a USB type A female connection|
+|**Workstation connection**|Can be connected directly with workstation (which has a USB type A female connection)|
 |**Power**| DC input: 5-pin Mini-DIN connector|
 |**documentation**| [user guide](https://web.archive.org/web/20230316153702/https://manuals.plus/opentext/tableau-forensic-t35ut35u-rw-sataide-bridge-manual) |
 
@@ -31,7 +31,7 @@ There are two possible setups: one where only using a write blocker/bride, one w
 |**Media**|2.5" SATA hard disks<br>3.5" SATA hard disks<br>2.5" IDE hard disks<br>3.5" IDE hard disks|
 |**Interface**|[SATA](https://www.wikidata.org/wiki/Q188639)<br>[IDE](https://www.wikidata.org/wiki/Q230360)|
 |**Connector**|USB 3.0|
-|**Cable**|USB 3.0 type B to type A|
+|**Cable**|[USB type B to USB type A](https://commons.wikimedia.org/wiki/Category:USB_cables?uselang=nl#/media/File:A-B_Usb_Cable.jpg)<br>![USB type B to USB type A](images/USB-3.jpg)|
 |**Workstation connection**|Via USB write blocker|
 |**Power**| via DC pin |
 
@@ -39,11 +39,11 @@ There are two possible setups: one where only using a write blocker/bride, one w
 
 |**Model**|[Tableau Forensic USB 3.0 Bridge T8U](https://web.archive.org/web/20180409191526/https://www.guidancesoftware.com/tableau/hardware//t8u) |
 |:--|:--|
-|**Media**|Drives with USB 3.0 and older connectors|
+|**Media**|Drives with USB (3.0 and older) connectors|
 |**Interface**|[USB](https://www.wikidata.org/wiki/Q42378)|
 |**Connector**|USB 3.0|
-|**Cable**|[USB type B to USB type A](https://commons.wikimedia.org/wiki/Category:USB_cables?uselang=nl#/media/File:A-B_Usb_Cable.jpg) |
-|**Workstation connection**|Can be connected directly with workstation (which has a USB type A female connection|
+|**Cable**|[USB type B to USB type A](https://commons.wikimedia.org/wiki/Category:USB_cables?uselang=nl#/media/File:A-B_Usb_Cable.jpg)<br>![USB type B to USB type A](images/USB-3.jpg) |
+|**Workstation connection**|Can be connected directly with workstation (which has a USB type A female connection)|
 |**Power**| DC input: 5-pin Mini-DIN connector |
 |**Documentation**| [user guide](https://web.archive.org/web/20230308061552/https://manuals.plus/opentext/t8u-tableau-forensic-usb-bridge-manual) |
 
@@ -57,31 +57,31 @@ There are two possible workflows: one where you create a disk image of the whole
 
 ### Workflow #1: Guymager
 
-[Guymager](https://guymager.sourceforge.io/) in the [Bitcurator Environment](https://bitcurator.net/) is used to create disk images of hard disks. This implies that you create and identical copy of the hard disk
+[Guymager](https://guymager.sourceforge.io/) in the [Bitcurator Environment](https://bitcurator.net/) is used to create disk images of hard disks. This implies that you create an identical copy of the hard disk
 
 __Advantages:__
-* You've got an identical copy of the disk and also the original environment is preserved, like the history of the files, metadata and file system. Old Macintosh file systems, for example, don't have file extensions to identify files. In stead this information is stored in metadata in the file system. So for old Macintosh file systems, it's important to preserve the original file system.
+* You've got an identical copy of the disk and also the original environment is preserved, like the history of the files, metadata and file system. Old Macintosh file systems, for example, don't have file extensions to identify files. In stead this information is stored in metadata in the file system. That's why for old Macintosh file systems, it's important to preserve the original file system.
 * Less risk of infections with viruses, because the hard disk is not mounted and individual files are not exported.
 * This means also that you cannot remove accidentially an indivual file of the disk.
-* Because it's not necessary to mount the hard disk, you can create copy's of hard disks that are damaged, whose file system is not compatible with the workstation or on which you do not have read and write rights.
+* Because it's not necessary to mount the hard disk, you can create copy's of hard disks that are damaged, with filesystem that are not compatible with the workstation, and whether or not you have read and write access.
 
 ### Workflow #2: Grsync
 
-[Grsync](http://www.opbyte.it/grsync/) in the [Bitcurator Environment](https://bitcurator.net/) is a GUI alternative to <code>rsync</code>. It is used to copy safely files from one computer to another. (G)rsycn checks by means of checksums if the files are copied correctly and can copy the original metadata (e.g. last modification date) without modification.
+[Grsync](http://www.opbyte.it/grsync/) in the [Bitcurator Environment](https://bitcurator.net/) is a GUI alternative to `rsync`. It is used to copy safely files from one computer to another. (G)rsync checks by means of checksums if the files are copied correctly and can copy the original metadata (e.g. last modification date) without modification.
 
 __Advantages:__
 * You only preserve the actual files on the disk (so no empty space) 
-* Which also means that the transfer of the files is faster
-* This means also that you cannot remove accidentially an indivual file of the disk.
+* Therefore the transfer of the files is faster
 * (G)rsync is more configurable.  For example, you can provide a list of files or file formats that you do not want to be transferred (e.g. system files).
-* <code>rsync</code> is a command line tool and therefore automatable.
+* `rsync` is a command line tool and therefore automatable.
 
 __Disadvantages:__
 * The original environment of the hard disk will be lost and thus also the metadata that is stored in the file system 
 * You cannot use this workflow if the file system of the disk is not compatible with the work station.
 * When a hard disk is damaged and cannot be mounted by the workstation, this workflow is not usable.
+* Risks for infections with viruses and accidentally removing files.
 
-We prefer creating disk images, but you can use this workflow if you haven't plenty of time and/or if you're working on recent hard disks whose file system is compatible with that of the workstation.
+We prefer creating disk images, but you can use this workflow if you don't have a lot of time and/or if you're working on recent hard disks whose file system is compatible with that of the workstation.
 
 We discourage the use of this workflow if you're working on Mac formatted hard disks.
 
@@ -94,14 +94,13 @@ We discourage the use of this workflow if you're working on Mac formatted hard d
 1. Choose the appropriate cable
     - Use the IDE cable when you've got an IDE hard disk
     - Use the SATA cable when you've got a SATA hard disk
-2. Connect the hard disk to the write blocker
+2. Connect the hard disk to the write blocker (right side)
 
 #### Step 2: Connect the write blocker to the workstation
 
-1. Connect the write blocker to the workstation using the blue USB 3.0 cable
-2. Connect the DC power supply to the write blocker
-3. Plug the power cable into a power socket
-4. Press the power button on the write blocker
+1. Connect the write blocker to the workstation using the blue USB 3.0 cable (left side)
+2. Connect the DC power supply to the write blocker and plug it into an outlet
+3. Press the power button on the write blocker
 
 ![setup hard drive and write blocker](images/hard_drive_writeblocker.jpg)
 
@@ -122,14 +121,14 @@ Decide if you want to create a disk image or just copy all the files. We recomme
 
 #### Step 1: Connect the docking station to the workstation
 
-1. Connect the write blocker to the workstation using the blue USB 3.0 cable (Host USB 3.0)
+1. Connect the write blocker to the workstation using the blue USB 3.0 cable (side: Host USB 3.0)
 2. Connect the DC power supply to the write blocker (bottom)
 3. Plug the power cable into a power socket
 4. Press the power button on the write blocker
 
 #### Step 2: Connect the docking station to the write blocker
 
-1. Connect the docking station to the write blocker using the USB cable
+1. Connect the docking station to the write blocker using the USB cable (side: Device USB 3.0)
 2. Connect the power cable to the drive abd plug the power cable into a power socket.
 
 ### Step 3: Create a disk image or copy the files
@@ -142,5 +141,8 @@ Decide if you want to create a disk image or just copy all the files. We recomme
 ### Step 4: Remove the hard disk(s)
 
 1. If the hard disk is mounted, remove it safely
+   1. Go to the workstation and open a file explorer window 
+   2. Right click on the device in the left navigation sidebar
+   3. Select eject
 2. Power off the write blocker
 3. Remove the hard disk(s) from the docking station

@@ -8,7 +8,7 @@ A BluRay disc had some advantages over other optical disc drives. It's compabibl
 
 |**Model**|[ASUS SBC-06D2X-U](https://web.archive.org/web/20200204152726/https://www.asus.com/be-nl/Optical-Drives-Storage/SBC06D2XU/overview/) |
 |:--|:--|
-|**Media**|CD-ROM, CD-R, CD-RW, DVD-ROM, DVD-R, DVD-RW, DVD+R, DVD+RW, Fujifilm Photodisc|
+|**Media**|CD-ROM<br>CD-R<br>CD-RW<br>DVD-ROM<br>DVD-R<br>DVD-RW<br>DVD+R<br>DVD+RW<br>Fujifilm Photodisc|
 |**Interface**|[USB](https://www.wikidata.org/wiki/Q42378)|
 |**Connector**|USB 2.0|
 |**Cable**|to check|
@@ -20,17 +20,17 @@ A BluRay disc had some advantages over other optical disc drives. It's compabibl
 
 |**Model**|[Tableau Forensic USB 3.0 Bridge T8U](https://web.archive.org/web/20180409191526/https://www.guidancesoftware.com/tableau/hardware//t8u) ![blocker](images/blocker.jpg)|
 |:--|:--|
-|**Media**|Drives with USB 3.0 and older connectors|
+|**Media**|Drives with USB (3.0 and older) connectors|
 |**Interface**|[USB](https://www.wikidata.org/wiki/Q42378)|
 |**Connector**|USB 3.0|
-|**Cable**|[USB type B to USB type A](https://commons.wikimedia.org/wiki/Category:USB_cables?uselang=nl#/media/File:A-B_Usb_Cable.jpg) ![USB](images/USB-3.jpg)|
+|**Cable**|[USB type B to USB type A](https://commons.wikimedia.org/wiki/Category:USB_cables?uselang=nl#/media/File:A-B_Usb_Cable.jpg)<br>![USB](images/USB-3.jpg)|
 |**Workstation connection**|Can be connected directly with workstation (which has a USB type A female connection|
 |**Power**| DC input: 5-pin Mini-DIN connector ![connector](images/power-5-pin.jpg)|
 |**Documentation**| |
 
 ### Workstation
 
-A Linux computer, preferably running the [Bitcurator Environment](https://bitcurator.net/) (We use a dual boot Dell XPS)
+A Linux computer, preferably running the [Bitcurator Environment](https://bitcurator.net/) (We use a Dell XPS)
 
 ## Software
 
@@ -49,18 +49,12 @@ A Linux computer, preferably running the [Bitcurator Environment](https://bitcur
 
 Connect the BluRay Drive to the write blocker using the USB cable (Device USB 3.0)
 
-### Step 3: Prepare the disk
+### Step 3: Create a disk image
 
-Grab the disk of which you want to capture the content
-
-### Step 4: Create a disk image
-
-1. Insert the optical disc in the BluRay Drive
+1. Take an optical disc and insert it in the BluRay Drive
 2. [Create a disk image using Guymager](guymager.md)
+3. If Guymager can't find the disc, remove the write blocker from the setup and directly connect the blu-ray drive to the workstation with the USB cable.
 
-### Step 5: Eject the disk
+### Step 5: Eject the disc
 
-1. Open a file explorer window
-2. Right click on the device in the left navigation sidebar
-3. Select eject
-4. Go back to step 3 using a new disk
+Eject the disc from the drive by pressing the button on the drive. 

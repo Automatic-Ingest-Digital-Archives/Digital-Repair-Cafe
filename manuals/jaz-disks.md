@@ -28,11 +28,11 @@
 
 | **Model** | [Tableau Forensic USB 3.0 Bridge T8U](https://web.archive.org/web/20180409191526/https://www.guidancesoftware.com/tableau/hardware//t8u) |
 |:--|:--|
-| **Media** | Drives with USB 3.0 and older connectors |
+| **Media** | Drives with USB (3.0 and older) connectors |
 | **Interface** | [USB](https://www.wikidata.org/wiki/Q42378) |
 | **Connector** | USB 3.0 |
-| **Cable** | [USB type B to USB type A](https://commons.wikimedia.org/wiki/Category:USB_cables?uselang=nl#/media/File:A-B_Usb_Cable.jpg) |
-| **Workstation connection** | Can be connected directly with workstation (which has a USB type A female connection |
+| **Cable** | [USB type B to USB type A](https://commons.wikimedia.org/wiki/Category:USB_cables?uselang=nl#/media/File:A-B_Usb_Cable.jpg)<br>![USB type B to USB type A](images/USB-3.jpg) |
+| **Workstation connection** | Can be connected directly with workstation (which has a USB type A female connection) |
 | **Power** | DC input: 5-pin Mini-DIN connector |
 | **Documentation** | [user guide](https://web.archive.org/web/20230308061552/https://manuals.plus/opentext/t8u-tableau-forensic-usb-bridge-manual)  |
 
@@ -48,14 +48,14 @@ A Linux computer, preferably running the [Bitcurator Environment](https://bitcur
 
 ### Step 1: Connect the write blocker to the workstation
 
-1. Connect the write blocker to the workstation using the blue USB 3.0 cable
+1. Connect the write blocker to the workstation using the blue USB 3.0 cable (side: Host USB 3.0)
 2. Connect the DC power supply to the write blocker
 3. Plug the power cable into a power socket
 4. Press the power button on the write blocker
 
 ### Step 2: Connect the Jaz Drive to the write blocker
 
-1. Connect the Jaz Drive to the write blocker using the SCSI/USB cable.<br>![jaz drive connected](images/jaz/cable_to_drive.jpg)
+1. Connect the Jaz Drive to the write blocker using the SCSI/USB cable (side: Device USB 3.0).<br>![jaz drive connected](images/jaz/cable_to_drive.jpg)
 2. Connect the power cable to the drive and plug the power cable into a power socket.<br>![jaz setup](images/jaz/setup_jaz.jpg)
 
 ### Step 3: Create a disk image
@@ -65,5 +65,5 @@ A Linux computer, preferably running the [Bitcurator Environment](https://bitcur
 
 ### Step 4: Eject the disk
 
-1. Push the button on the drive to eject the disk
-2. If you can't eject the disk by pushing on the button: power off the jaz drive and the write blocker. Power on again and immediatley push on the eject button.
+1. Press the button on the drive to eject the disk
+2. If you can't eject the disk by pushing on the button: power off the jaz drive and the write blocker. Power on again and immediatley press the eject button.
