@@ -105,10 +105,10 @@ You can skip this step if you know the [logical format](https://github.com/archi
    - **Grey:** the KryoFlux software could not determine the status of this track. This may or may not mean a successful read. It could indicate that this track was unformatted or that the wrong format was selected in step 1.
    - Sometimes you can also see a **yellow** colour. This indicates a formatting error.
 
-   ![kryoflux busy](images/kryoflux/kryoflux_busy.png)<br>Kroflux is creating a disk image of a floppy. A correct logical format was chosen.<br>
-   ![kryoflux fail](images/kryoflux/kryoflux_geen_success.png)<br>A wrong logical format was chosen.<br>
-   ![kryoflux succes](images/kryoflux/kryoflux_success.png)<br>A correct logical format was chosen. The first 16 tracks contain errors.<br>
-   ![kryoflux modified](images/kryoflux/kryoflux_modified.png)<br>A correct logical format was chosen. Most of the tracks are modified.<br>
+   ![kryoflux busy](images/kryoflux/kryoflux_busy.png)<br>Kroflux is creating a disk image of a floppy. A correct logical format was chosen.<br><br>
+   ![kryoflux fail](images/kryoflux/kryoflux_geen_success.png)<br>A wrong logical format was chosen.<br><br>
+   ![kryoflux succes](images/kryoflux/kryoflux_success.png)<br>A correct logical format was chosen. The first 16 tracks contain errors.<br><br>
+   ![kryoflux modified](images/kryoflux/kryoflux_modified.png)<br>A correct logical format was chosen. Most of the tracks are modified.
 
 ### Step 6: Eject the floppy disk
 

@@ -71,7 +71,7 @@ Connect the Floppy USB Drive to the write blocker using its USB cable (side: Dev
 
 ### Step 5: Eject the floppy disk
 
-1. Press on the button of the Floppy USB Drive to eject the disk
+1. Press the button on the Floppy USB Drive to eject the disk
 2. If that doesn't work:
    1. Go to the workstation and open a file explorer window 
    2. Right click on the device in the left navigation sidebar
@@ -80,5 +80,5 @@ Connect the Floppy USB Drive to the write blocker using its USB cable (side: Dev
 3. If that doesn't work either:
    1. Power off the write blocker
    2. Power on the write blocker
-   3. Immediately press on the button of the floppy drive to eject the floppy disk
+   3. Immediately press the button on the floppy drive
 
