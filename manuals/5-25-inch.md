@@ -49,7 +49,7 @@
    ![cables](images/floppy/floppy_power_data_cable.png)<br>
    ![setup kryoflux](images/kryoflux/kryoflux_board.JPG)
 2. Place the floppy drive controller on a non-conductive surface, e.g. on a piece of cardboard
-3. Connect the floppy disk drive to the floppy drive controller via the floppy data cable (widest adapter). It's important that you connect the cable correctly to the drive. The red side of the cable should be put in pin 1 of the floppy disk drive. You can recognize this by a missing pin next to pin 2.<br>
+3. Connect the floppy disk drive to the floppy drive controller via the floppy data cable (widest adapter). It's important that you connect the cable correctly to the drive. The red side of the cable should be put in pin 1 of the floppy disk drive. You can recognize this by a missing pin next to pin 4.<br>
    ![pin1](images/floppy/5-25-floppy_pin1.jpg)<br>
    ![power](images/floppy/5-25-floppy-cable.png)
 4. Connect the floppy drive controller to the workstation via the USB type A cable
