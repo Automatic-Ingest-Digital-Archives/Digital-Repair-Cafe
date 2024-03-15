@@ -1,8 +1,8 @@
-Digital Repair Cafe was a project and now a service of AIDA (a collaboration between [Amsab-ISG](https://www.amsab.be/), [ADVN](https://advn.be), [AMVB](https://www.amvb.be/), [AVG-CARHIF](http://www.avg-carhif.be/cms/index.php), [CAVA](https://www.cavavub.be/), [Letterenhuis](https://www.letterenhuis.be), [VAi](https://www.vai.be/), [Archiefpunt](https://archiefpunt.be/) and [meemoo](https://www.meemoo.be/)), with support of the Flemish government. In this project a central service to capture data from obsolete media was developed. The service is now operated by [meemoo, Flemish Inistute for Archives](https://meemoo.be). 
+AIDA Capture Lab is a service of AIDA (a collaboration between [Amsab-ISG](https://www.amsab.be/), [ADVN](https://advn.be), [AMVB](https://www.amvb.be/), [Letterenhuis](https://www.letterenhuis.be), [VAi](https://www.vai.be/), [Archiefpunt](https://archiefpunt.be/) and [meemoo](https://www.meemoo.be/)) and the result of the project [Digital Repair Cafe](https://meemoo.be/en/projects/digital-repair-cafe). In this project, funded by the Flemish government, a central service to capture data from obsolete media was developed. The service is now operated by [meemoo, Flemish Inistute for Archives](https://meemoo.be). 
 
 Obsolete media are all the media containing digital data that still work technically, but which can no longer be read by modern computers. Examples include 5.25-inch floppy disks, zip disks, magneto-optical disks and various tape formats.
 
-[Contact Maarten Savels (Amsab-ISG)](mailto:maarten.savels@amsab.be?subject=Digital%20Repair%20Cafe) for more information about the project. Contact [meemoo](mailto:info@meemoo.be?subject=Digital%20Repair%20Cafe) for information about the workflows and manuals.
+[Contact Maarten Savels (Amsab-ISG)](mailto:maarten.savels@amsab.be?subject=Digital%20Repair%20Cafe) for more information about the Digital Repair Cafe project. Contact [meemoo](mailto:info@meemoo.be?subject=Digital%20Repair%20Cafe) for information about the workflows and manuals of the capture lab.
 
 ## Manuals
 
