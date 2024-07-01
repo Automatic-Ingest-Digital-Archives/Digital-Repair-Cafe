@@ -1,6 +1,6 @@
 # Hard disks
 
-This manual and setup is meant for hard drives with a IDE and SATA interface. It can also be used for USB external hard drives, but then the enclosure of the hard disk should be removed. The IDE or SATA interface is much faster then USB. 
+This manual and setup is meant for hard drives with a IDE and SATA interface. It can also be used for USB external hard drives, but then the enclosure of the hard disk should be removed. The IDE or SATA interface is much faster than USB. 
 
 This setup can't be used for M2.SATA disks.
 
