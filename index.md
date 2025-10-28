@@ -2,13 +2,13 @@ AIDA Capture Lab is a service of AIDA (a collaboration between [Amsab-ISG](https
 
 Obsolete media are all the media containing digital data that still work technically, but which can no longer be read by modern computers. Examples include 5.25-inch floppy disks, zip disks, magneto-optical disks and various tape formats.
 
-[Contact Maarten Savels (Amsab-ISG)](mailto:maarten.savels@amsab.be?subject=Digital%20Repair%20Cafe) for more information about the Digital Repair Cafe project. Contact [meemoo](mailto:info@meemoo.be?subject=Digital%20Repair%20Cafe) for information about the workflows and manuals of the capture lab.
+[Contact Maarten Savels (Amsab-ISG)](mailto:maarten.savels@amsab.be?subject=Digital%20Repair%20Cafe) for more information about the Digital Repair Cafe project. Contact [meemoo](mailto:info@meemoo.be?subject=Digital%20Repair%20Cafe) for information about the workflows and manuals, or if you want to use the AIDA Capture Lab.
 
 ## Manuals
 
 ### Identifying media
 
-* [Handleiding verouderde dragers herkennen](https://www.projectcest.be/wiki/Publicatie:Handleiding_Verouderde_Dragers_Herkennen){:target="_blank"} (dutch)
+* [Handleiding verouderde dragers herkennen](https://kennisbank.meemoo.be/toolbox/handleiding-verouderde-dragers-herkennen){:target="_blank"} (dutch)
 
 ### Capturing content
 
