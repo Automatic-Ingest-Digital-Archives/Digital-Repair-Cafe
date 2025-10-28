@@ -27,7 +27,7 @@ Included: setup and workflow
 * [travan tapes](manuals/travan.md) (only setup - workflow still in progress)
 * [zip disks](manuals/zip-disks.md)
 
-## Deliverables
+## Deliverables Digital Repair Cafe project
 
 * [Form for registration of old media](https://docs.google.com/spreadsheets/d/1pHMxuXhtgddlfF7JHfE6gS8JwByIXrVscXJZPcKQd4o/edit?usp=sharing){:target="_blank"} (dutch)
 * [Overview of the obsolete media of the partners](media_overview.md)
