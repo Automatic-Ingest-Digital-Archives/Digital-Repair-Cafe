@@ -29,6 +29,10 @@ sudo mount /dev/$device /mount/$user/$mountfolder
 
 `lsscsi | grep tape`
 
+`lsscsi | grep -i tape`
+
+ `lsscsi -g | grep -i tape   # also shows /dev/sgX`
+
 #### set tape device as logical device
 
 This must be done first before you can do any operation to get the content of the device.
@@ -37,9 +41,49 @@ This must be done first before you can do any operation to get the content of th
 
 #### check status of drive
 
-`tapeinfo -f /dev/nst0 ; mt -f /dev/nst0 status`
+`tapeinfo -f /dev/nst0` 
+
+`mt -f /dev/nst0 status`
+
+`sg_inq /dev/sg0` 
+
+#### watch kernel logs live (useful during connect/read errors)
+
+`sudo dmesg -wT | egrep -i 'st0|nst0|sg0|tape|usb|scsi|reset|sense'`
+
+#### check if something is holding the device "open".
+
+`lsof /dev/nst0` 
+
+`fuser -v /dev/nst0`
 
 ### Read
+
+#### Block size / mode (important for DDS/DAT and tapeimgr)
+
+`mt -f /dev/nst0 status` to check what the block size is, fixed or variable.
+
+`mt -f /dev/nst0 setblk 0`  = variable
+`mt -f /dev/nst0 setblk 32768` = fixed (example)
+
+#### determine fixed block size to use (non-destructive)
+Reads a single record with a large read size and looks at how many bytes were returned.
+
+`mt -f /dev/nst0 rewind`
+`mt -f /dev/nst0 setblk 0`
+`dd if=/dev/nst0 of=/dev/null bs=1M count=1 iflag=fullblock status=progress`
+
+Based on the "`bytes copies`" output of dd set block size. With 
+``mt -f /dev/nst0 setblk NUMBER`
+
+If you get 0 bytes copied, you may be at a filemark/EOD (or tape is empty). Try moving forward one file and retry:
+
+`mt -f /dev/nst0 fsf 1`
+`dd if=/dev/nst0 of=/dev/null bs=1M count=1 iflag=fullblock status=progress`
+
+Verify with
+
+`mt -f /dev/nst0 status`
 
 #### Show folder and get a basic overview of what is stored on the tape at record number ${n}
 
@@ -63,6 +107,15 @@ mt -f /dev/nst0 asf ${n}; #positon the tape to record number ${n}.
 tar tvf /dev/nst0 2> /dev/null > "/tmp/tape-record${n}.filelist.txt"
 ```
 
+`mt -f /dev/nst0 rewind`
+`dd if=/dev/nst0 bs=32768 count=32 iflag=fullblock status=progress | sha256sum`
+
+#### tapeimgr read (recommended: start at BOT)
+
+`mt -f /dev/nst0 rewind`
+`tapeimgr --device /dev/nst0 --blocksize 32768 /path/to/outputdir`
+
+
 ### Write
 
 #### Create a backup/append a folder+files to the tape 
@@ -79,16 +132,31 @@ mt -f /dev/nst0 asf ${n}; #positon the tape to record number ${n}.
 tar -cvf /dev/nst0 /etc; #backup the '/etc' folder.
 ```
 
-### Delete
+### Delete 
 
 #### Erase the tape
 
-```bash
+```
 mt -f /dev/nst0 asf 0; #positon the tape to record number 0.
 tar -cvf /dev/nst0 /dev/null; #write a null to record 0.
 ```
 
-or `mt -f /dev/st0 erase` 
+`mt -f /dev/nst0 rewind`
+`mt -f /dev/st0 erase` # can take a very long time, hours
+`mt -f /dev/nst0 rewind` 
+
+
+#### Logical erase, tape looks empty to most software, fastest option. 
+This is a quick and dirty option and not secure, old data is still recoverable until overwritten. 
+
+Use the same blocksize for fixed-block tapes. 
+
+`mt -f /dev/nst0 rewind`
+`mt -f /dev/nst0 setblk <BS>` # for example 32768
+`dd if=/dev/zero of=/dev/nst0 bs=<BS> count=1 status=progress` 
+`mt -f /dev/nst0 weof 1` #writes 1 filemark (logical end)    `mt -f /dev/nst0 rewind` 
+
+`sudo mt -f /dev/nst0 status` #to verify, "File number=0". 
 
 ### Navigate
 
@@ -108,7 +176,7 @@ Forward record: `mt -f /dev/nst0 fsf 1`
 
 ```bash
 mt -f /dev/nst0 rewind; #rewind the tape to the beginning.
-mt -f /dev/nst0 eject; #eject the tape.
+mt -f /dev/nst0 offline; #eject the tape.
 ```
 
 ## Software
