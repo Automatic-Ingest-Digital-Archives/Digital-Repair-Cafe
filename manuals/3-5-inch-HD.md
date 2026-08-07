@@ -62,7 +62,7 @@ Connect the Floppy USB Drive to the write blocker using its USB cable (side: Dev
 ### Step 3: Prepare the floppy disk
 
 1. Take a floppy disk
-2. Slide the switch on the disk bringing it in read-only state. Look for a tiny black sliding tab in a square hole in the disk's lower left corner. Slide the tab with a pencil or your thubmnail so that the hole is uncovered.<br>![write protection sliding tab](images/floppy/floppy_anatomy.jpg)
+2. Slide the switch on the disk bringing it in read-only state. Look for a tiny black sliding tab in a square hole in the disk's lower left corner. Slide the tab with a pencil or your thumbnail so that the hole is uncovered.<br>![write protection sliding tab](images/floppy/floppy_anatomy.jpg)
 
 ### Step 4: Create a disk image
 
